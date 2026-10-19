@@ -1,0 +1,47 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "scout22_arm",
+    "Categories": [
+      "Common",
+      "Security",
+      "SWAT",
+      "Warden",
+      "FrancheComte"
+    ],
+    "TechLevel": 3,
+    "Price": 550.0,
+    "Weight": 1.1,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "Scout22Arm",
+      "Scout22Shoulder"
+    ],
+    "TooltipIconTag": "aug_type_arm",
+    "Disassembly": [
+      {
+        "ItemId": "scout22_hand",
+        "Count": 1
+      },
+      {
+        "ItemId": "spring",
+        "Count": 1
+      },
+      {
+        "ItemId": "weapon_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "capacitor_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "armor_plates",
+        "Count": 1
+      }
+    ]
+  }
+}

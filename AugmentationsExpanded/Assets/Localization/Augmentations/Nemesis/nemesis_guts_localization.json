@@ -1,0 +1,33 @@
+{
+  "RecordType": "QM_ImporterAPI.Templates.LocalizationTemplate",
+  "Data": {
+    "Keys": {
+      "item.nemesis_guts.name": {
+        "EnglishUS": "(Body) pT-02 Torso",
+        "Russian": "",
+        "German": "",
+        "French": "",
+        "Spanish": "",
+        "Polish": "",
+        "Turkish": "",
+        "BrazilianPortugal": "",
+        "Korean": "",
+        "Japanese": "",
+        "ChineseSimp": ""
+      },
+      "item.nemesis_guts.shortdesc": {
+        "EnglishUS": "Grafted Nemesis Body",
+        "Russian": "",
+        "German": "",
+        "French": "",
+        "Spanish": "",
+        "Polish": "",
+        "Turkish": "",
+        "BrazilianPortugal": "",
+        "Korean": "",
+        "Japanese": "",
+        "ChineseSimp": ""
+      }
+    }
+  }
+}

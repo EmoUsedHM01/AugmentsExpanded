@@ -1,0 +1,69 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "NemesisKnee",
+    "SlotType": "Knee",
+    "NatureType": "human",
+    "SlotWeight": 11.0,
+    "CoreEffects": {
+      "run_unavailable": 0,
+      "dodge_reduce": -0.06
+    },
+    "AmputationCoreEffects": {
+      "run_unavailable": 0,
+      "dodge_reduce": -0.3
+    },
+    "ImplicitBonusEffects": {
+      "resist_blunt": 3,
+      "resist_lacer": 3,
+      "resist_pierce": 3,
+      "resist_beam": 2,
+      "resist_fire": 2,
+      "resist_cold": 2,
+      "max_health": 5,
+      "wound_chance_mult": -0.05,
+      "items_weight": -0.05,
+      "passive_regen": 1
+    },
+    "ImplicitPenaltyEffects": {
+      "scatter_angle": 0.05,
+      "dodge_reduce": -0.05,
+      "ranged_accuracy": -0.05,
+      "income_pain": 0.05,
+      "resist_poison": -3,
+      "resist_shock": -1
+    },
+    "IgnoreEffects": [
+      "food_unavailable",
+      "income_dmg",
+      "accuracy_reduce",
+      "vomiting",
+      "eat_dmg",
+      "los_reduce",
+      "scatter_angle"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "nemesis_knee"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "human_rib"
+      },
+      {
+        "Item1": 2.0,
+        "Item2": "human_meat"
+      }
+    ],
+    "AdditionalAmputation": [],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

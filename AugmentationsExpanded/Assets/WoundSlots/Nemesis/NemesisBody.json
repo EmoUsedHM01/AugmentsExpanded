@@ -1,0 +1,72 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "NemesisBody",
+    "SlotType": "Body",
+    "NatureType": "human",
+    "SlotWeight": 18.0,
+    "CoreEffects": {
+      "dot_dmg": 1,
+      "regen_efficacy": -0.1
+    },
+    "AmputationCoreEffects": {
+      "death": 0,
+      "dot_dmg": 2,
+      "regen_efficacy": -0.2
+    },
+    "ImplicitBonusEffects": {
+      "resist_blunt": 7,
+      "resist_lacer": 7,
+      "resist_pierce": 7,
+      "resist_beam": 2,
+      "resist_fire": 4,
+      "resist_cold": 4,
+      "max_health": 10,
+      "crit_damage": 0.1,
+      "melee_accuracy": 0.05,
+      "melee_dmg_reduce": 0.05,
+      "pain_threshold_regen": 2,
+      "wound_chance_mult": -0.1,
+      "items_weight": -0.2
+    },
+    "ImplicitPenaltyEffects": {
+      "qmorph": 1,
+      "dodge_reduce": -0.05,
+      "income_pain": 0.15,
+      "food_calories": 0.1,
+      "resist_poison": -6,
+      "resist_shock": -2
+    },
+    "IgnoreEffects": [
+      "run_unavailable",
+      "food_unavailable",
+      "vomiting",
+      "eat_dmg",
+      "move_dmg",
+      "los_reduce"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "nemesis_guts"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "human_skin"
+      },
+      {
+        "Item1": 2.0,
+        "Item2": "human_meat"
+      }
+    ],
+    "AdditionalAmputation": [],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

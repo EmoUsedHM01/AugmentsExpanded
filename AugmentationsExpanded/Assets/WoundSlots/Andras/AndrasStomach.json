@@ -1,0 +1,68 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "AndrasStomach",
+    "SlotType": "Stomach",
+    "NatureType": "quasimorph",
+    "SlotWeight": 11.0,
+    "CoreEffects": {
+      "food_unavailable": 0,
+      "vomiting": 0.03
+    },
+    "AmputationCoreEffects": {
+      "death": 0,
+      "food_unavailable": 0,
+      "vomiting": 0.06
+    },
+    "ImplicitBonusEffects": {
+      "resist_blunt": 4,
+      "resist_lacer": 4,
+      "resist_pierce": 4,
+      "resist_shock": 2,
+      "resist_beam": 2,
+      "resist_fire": 3,
+      "resist_cold": 3,
+      "resist_poison": 5,
+      "max_health": 10,
+      "dmg_to_starvation": 5,
+      "wound_immune_blunt": 1
+    },
+    "ImplicitPenaltyEffects": {
+      "qmorph": 2,
+      "income_pain": 0.05,
+      "food_calories": 0.05,
+      "addiction_chance": 0.1
+    },
+    "IgnoreEffects": [
+      "run_unavailable",
+      "accuracy_reduce",
+      "dodge_reduce",
+      "los_reduce",
+      "scatter_angle"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "andras_stomach"
+      },
+      {
+        "Item1": 3.0,
+        "Item2": "human_meat"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "quasi_medical_kit_1"
+      }
+    ],
+    "AdditionalAmputation": [],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

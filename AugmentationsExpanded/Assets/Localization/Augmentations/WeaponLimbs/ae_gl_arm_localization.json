@@ -1,0 +1,33 @@
+{
+  "RecordType": "QM_ImporterAPI.Templates.LocalizationTemplate",
+  "Data": {
+    "Keys": {
+      "item.ae_gl_arm.name": {
+        "EnglishUS": "(Full Arm) RGL-40 Reprisal",
+        "Russian": "",
+        "German": "",
+        "French": "",
+        "Spanish": "",
+        "Polish": "",
+        "Turkish": "",
+        "BrazilianPortugal": "",
+        "Korean": "",
+        "Japanese": "",
+        "ChineseSimp": ""
+      },
+      "item.ae_gl_arm.shortdesc": {
+        "EnglishUS": "Hidden Cyborg Arm Grenade Launcher",
+        "Russian": "",
+        "German": "",
+        "French": "",
+        "Spanish": "",
+        "Polish": "",
+        "Turkish": "",
+        "BrazilianPortugal": "",
+        "Korean": "",
+        "Japanese": "",
+        "ChineseSimp": ""
+      }
+    }
+  }
+}

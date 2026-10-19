@@ -1,0 +1,50 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "ae_opi",
+    "Categories": [
+      "Specops",
+      "Merc",
+      "UnchainedBelt"
+    ],
+    "TechLevel": 9,
+    "Price": 10000.0,
+    "Weight": 8.0,
+    "InventoryWidthSize": 2,
+    "ItemClass": "BioAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "OPIHead",
+      "OPIShoulder",
+      "OPIArm",
+      "OPIThigh",
+      "OPIFeet",
+      "OPIChest",
+      "OPIBody",
+      "OPIStomach",
+      "OPIKnee"
+    ],
+    "TooltipIconTag": "aug_type_body",
+    "ae_kill_long_stats": "On",
+    "ae_lose_augmentation_on_amputate": "On",
+    "Disassembly": [
+      {
+        "ItemId": "quasi_medical_kit_1",
+        "Count": 1
+      },
+      {
+        "ItemId": "quasi_ron_medicine_1",
+        "Count": 1
+      },
+      {
+        "ItemId": "quasisamples",
+        "Count": 1
+      },
+      {
+        "ItemId": "organs_box",
+        "Count": 1
+      }
+    ]
+  }
+}

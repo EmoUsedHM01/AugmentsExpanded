@@ -1,0 +1,33 @@
+{
+  "RecordType": "QM_ImporterAPI.Templates.LocalizationTemplate",
+  "Data": {
+    "Keys": {
+      "item.andras_hand.name": {
+        "EnglishUS": "(Full Arm) Andras's Arm",
+        "Russian": "",
+        "German": "",
+        "French": "",
+        "Spanish": "",
+        "Polish": "",
+        "Turkish": "",
+        "BrazilianPortugal": "",
+        "Korean": "",
+        "Japanese": "",
+        "ChineseSimp": ""
+      },
+      "item.andras_hand.shortdesc": {
+        "EnglishUS": "Quasimorphic Mutated Arm",
+        "Russian": "",
+        "German": "",
+        "French": "",
+        "Spanish": "",
+        "Polish": "",
+        "Turkish": "",
+        "BrazilianPortugal": "",
+        "Korean": "",
+        "Japanese": "",
+        "ChineseSimp": ""
+      }
+    }
+  }
+}

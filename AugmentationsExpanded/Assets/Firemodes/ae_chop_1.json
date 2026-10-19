@@ -1,0 +1,8 @@
+{
+  "RecordType": "MGSC.FireModeRecord",
+  "Data": {
+    "Id": "ae_chop_1",
+    "CloneFrom": "chop_precise_1",
+    "Accuracy": 0.0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "RecordType": "MGSC.FireModeRecord",
+  "Data": {
+    "Id": "ae_uhmg_suppressive_9",
+    "CloneFrom": "rifle_8",
+    "AmmoPerShot": 9,
+    "WeaponCastsCount": 9,
+    "Accuracy": -0.1,
+    "ScatterAngle": 6.0
+  }
+}

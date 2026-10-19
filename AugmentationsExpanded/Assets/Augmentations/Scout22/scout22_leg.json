@@ -1,0 +1,47 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "scout22_leg",
+    "Categories": [
+      "Common",
+      "Security",
+      "SWAT",
+      "Warden",
+      "FrancheComte"
+    ],
+    "TechLevel": 3,
+    "Price": 550.0,
+    "Weight": 1.2,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "Scout22Thigh",
+      "Scout22Feet"
+    ],
+    "TooltipIconTag": "aug_type_leg",
+    "Disassembly": [
+      {
+        "ItemId": "scout22_feet",
+        "Count": 1
+      },
+      {
+        "ItemId": "armor_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "rod_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "rubber",
+        "Count": 1
+      },
+      {
+        "ItemId": "spring",
+        "Count": 1
+      }
+    ]
+  }
+}

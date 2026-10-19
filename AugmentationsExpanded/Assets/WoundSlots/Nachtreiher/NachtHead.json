@@ -1,0 +1,81 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "NachtHead",
+    "SlotType": "Head",
+    "NatureType": "cyborg",
+    "SlotWeight": 8.0,
+    "CoreEffects": {
+      "los_reduce": -2,
+      "accuracy_reduce": -0.15
+    },
+    "AmputationCoreEffects": {
+      "food_unavailable": 0,
+      "los_reduce": -99,
+      "accuracy_reduce": -0.3
+    },
+    "ImplicitBonusEffects": {
+      "ranged_accuracy": 0.15,
+      "falloff_bonus": -0.1,
+      "sprint_accuracy_mult": -0.05,
+      "fov_angle": 0.4,
+      "los_reduce": 2,
+      "spotted_radius": 2,
+      "firearm_range": 1.0
+    },
+    "ImplicitPenaltyEffects": {
+      "max_health": -15,
+      "income_critchance": 0.1,
+      "resist_blunt": -5,
+      "resist_shock": -8,
+      "resist_pierce": -5,
+      "wound_chance_mult": 0.05
+    },
+    "IgnoreEffects": [
+      "run_unavailable",
+      "food_unavailable",
+      "dot_dmg",
+      "apoint_dmg",
+      "move_dmg",
+      "eat_dmg",
+      "vomiting",
+      "los_reduce"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "nacht_head"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "armor_plates"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "microelectronics_parts"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "electrical_parts_container"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "circuit_board"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "rubber"
+      }
+    ],
+    "AdditionalAmputation": [],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

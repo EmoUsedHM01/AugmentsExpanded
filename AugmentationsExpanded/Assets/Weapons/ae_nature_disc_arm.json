@@ -1,0 +1,39 @@
+{
+  "RecordType": "MGSC.WeaponRecord",
+  "Data": {
+    "Id": "ae_nature_disc_arm",
+    "CloneFrom": "cor_worker_discthrower_1",
+    "IsImplicit": true,
+    "Unbreakable": true,
+    "HideModel": true,
+    "WeaponClass": "Shotgun",
+    "Categories": [],
+    "Traits": [
+      "mutiliating",
+      "piercing"
+    ],
+    "RequiredAmmo": "SawBlade",
+    "DefaultAmmoId": "sawblade_ammo",
+    "Firemodes": [
+      "disc_1",
+      "ae_disc_2"
+    ],
+    "MagazineCapacity": 6,
+    "MinRandomAmmoCount": 3,
+    "ReloadDuration": 4,
+    "Range": 4,
+    "Falloff": 0.26,
+    "BonusAccuracy": -0.1,
+    "BonusScatterAngle": 1.5,
+    "TechLevel": 3,
+    "Price": 0,
+    "Weight": 0,
+    "InventoryWidthSize": 2,
+    "Damage": {
+      "minDmg": 38,
+      "maxDmg": 70,
+      "critChance": 0.0,
+      "critDmg": 1.4
+    }
+  }
+}

@@ -1,0 +1,79 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>Augmentations_Expanded</AssemblyName>
+    <RootNamespace>AugmentationsExpanded</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <Deterministic>true</Deterministic>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <QmManaged>C:\Program Files (x86)\Steam\steamapps\common\Quasimorph\Quasimorph_Data\Managed</QmManaged>
+    <McmDll>C:\Program Files (x86)\Steam\steamapps\workshop\content\2059170\3469678797\MCM.dll</McmDll>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="AEVisibleAugments.cs" />
+    <Compile Include="AugmentationsExpandedMod.cs" />
+    <Compile Include="SmasherWoundSlotIcons.cs" />
+    <Compile Include="SmasherSprites.cs" />
+    <Compile Include="SmasherJson.cs" />
+    <Compile Include="SmasherAugmentations.cs" />
+    <Compile Include="SmasherChipDrop.cs" />
+    <Compile Include="SmasherCrafting.cs" />
+    <Compile Include="SmasherRecords.cs" />
+    <Compile Include="SmasherTrash.cs" />
+    <Compile Include="SmasherContent.cs" />
+    <Compile Include="SmasherMapDrop.cs" />
+    <Compile Include="SmasherFiremodes.cs" />
+    <Compile Include="SmasherAmmo.cs" />
+    <Compile Include="SmasherWeapons.cs" />
+    <Compile Include="SmasherExtraSlot.cs" />
+    <Compile Include="SmasherLongStats.cs" />
+    <Compile Include="SmasherMultiSlot.cs" />
+    <Compile Include="SmasherGunArms.cs" />
+    <Compile Include="SmasherUhmg.cs" />
+    <Compile Include="SmasherRanks.cs" />
+    <Compile Include="SmasherRankLock.cs" />
+    <Compile Include="SmasherIcons.cs" />
+    <Compile Include="ConfigMenu.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(QmManaged)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(QmManaged)\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(QmManaged)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="SimpleJSON">
+      <HintPath>$(QmManaged)\SimpleJSON.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>$(QmManaged)\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(QmManaged)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="MCM">
+      <HintPath>$(McmDll)</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+{
+  "RecordType": "QM_ImporterAPI.Templates.Descriptors.CustomAugmentationDescriptor",
+  "Data": {
+    "ItemId": "ae_uhmg",
+    "ImageProperties": {
+      "IconSpriteIdOrPath": "Images/Augmentations/generic_arm_container_5_inv.png",
+      "SmallIconSpriteIdOrPath": "Images/Augmentations/generic_arm_container_5_floor.png",
+      "ShadowOnFloorSpriteIdOrPath": "Images/Augmentations/generic_arm_container_shadow.png"
+    }
+  }
+}

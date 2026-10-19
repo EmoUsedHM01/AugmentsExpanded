@@ -1,0 +1,124 @@
+{
+  "RecordType": "QM_ImporterAPI.Templates.LocalizationTemplate",
+  "Data": {
+    "Keys": {
+      "woundslot.Scout22Head.name": {
+        "EnglishUS": "SCOUT-22/A",
+        "Russian": "",
+        "German": "",
+        "French": "",
+        "Spanish": "",
+        "Polish": "",
+        "Turkish": "",
+        "BrazilianPortugal": "",
+        "Korean": "",
+        "Japanese": "",
+        "ChineseSimp": ""
+      },
+      "woundslot.Scout22Body.name": {
+        "EnglishUS": "SCOUT-22/B",
+        "Russian": "",
+        "German": "",
+        "French": "",
+        "Spanish": "",
+        "Polish": "",
+        "Turkish": "",
+        "BrazilianPortugal": "",
+        "Korean": "",
+        "Japanese": "",
+        "ChineseSimp": ""
+      },
+      "woundslot.Scout22Chest.name": {
+        "EnglishUS": "SCOUT-22/C",
+        "Russian": "",
+        "German": "",
+        "French": "",
+        "Spanish": "",
+        "Polish": "",
+        "Turkish": "",
+        "BrazilianPortugal": "",
+        "Korean": "",
+        "Japanese": "",
+        "ChineseSimp": ""
+      },
+      "woundslot.Scout22Stomach.name": {
+        "EnglishUS": "SCOUT-22/D",
+        "Russian": "",
+        "German": "",
+        "French": "",
+        "Spanish": "",
+        "Polish": "",
+        "Turkish": "",
+        "BrazilianPortugal": "",
+        "Korean": "",
+        "Japanese": "",
+        "ChineseSimp": ""
+      },
+      "woundslot.Scout22Shoulder.name": {
+        "EnglishUS": "SCOUT-22/E1",
+        "Russian": "",
+        "German": "",
+        "French": "",
+        "Spanish": "",
+        "Polish": "",
+        "Turkish": "",
+        "BrazilianPortugal": "",
+        "Korean": "",
+        "Japanese": "",
+        "ChineseSimp": ""
+      },
+      "woundslot.Scout22Arm.name": {
+        "EnglishUS": "SCOUT-22/E2",
+        "Russian": "",
+        "German": "",
+        "French": "",
+        "Spanish": "",
+        "Polish": "",
+        "Turkish": "",
+        "BrazilianPortugal": "",
+        "Korean": "",
+        "Japanese": "",
+        "ChineseSimp": ""
+      },
+      "woundslot.Scout22Thigh.name": {
+        "EnglishUS": "SCOUT-22/F1",
+        "Russian": "",
+        "German": "",
+        "French": "",
+        "Spanish": "",
+        "Polish": "",
+        "Turkish": "",
+        "BrazilianPortugal": "",
+        "Korean": "",
+        "Japanese": "",
+        "ChineseSimp": ""
+      },
+      "woundslot.Scout22Knee.name": {
+        "EnglishUS": "SCOUT-22/F3",
+        "Russian": "",
+        "German": "",
+        "French": "",
+        "Spanish": "",
+        "Polish": "",
+        "Turkish": "",
+        "BrazilianPortugal": "",
+        "Korean": "",
+        "Japanese": "",
+        "ChineseSimp": ""
+      },
+      "woundslot.Scout22Feet.name": {
+        "EnglishUS": "SCOUT-22/F2",
+        "Russian": "",
+        "German": "",
+        "French": "",
+        "Spanish": "",
+        "Polish": "",
+        "Turkish": "",
+        "BrazilianPortugal": "",
+        "Korean": "",
+        "Japanese": "",
+        "ChineseSimp": ""
+      }
+    }
+  }
+}

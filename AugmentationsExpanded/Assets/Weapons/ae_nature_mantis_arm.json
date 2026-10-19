@@ -1,0 +1,37 @@
+{
+  "RecordType": "MGSC.WeaponRecord",
+  "Data": {
+    "Id": "ae_nature_mantis_arm",
+    "CloneFrom": "tia_blade_1",
+    "IsImplicit": true,
+    "Unbreakable": true,
+    "HideModel": true,
+    "WeaponClass": "Blade",
+    "Categories": [],
+    "Traits": [
+      "mutiliating"
+    ],
+    "DefaultAmmoId": "implicted_sword_brutal",
+    "OverrideAmmo": [
+      "none",
+      "implicted_ae_precise_stab"
+    ],
+    "Firemodes": [
+      "slash_2",
+      "ae_stab_1"
+    ],
+    "MagazineCapacity": 0,
+    "ReloadDuration": 1,
+    "BonusAccuracy": 0.3,
+    "TechLevel": 2,
+    "Price": 0,
+    "Weight": 0,
+    "InventoryWidthSize": 2,
+    "Damage": {
+      "minDmg": 34,
+      "maxDmg": 44,
+      "critChance": 0.0,
+      "critDmg": 1.8
+    }
+  }
+}

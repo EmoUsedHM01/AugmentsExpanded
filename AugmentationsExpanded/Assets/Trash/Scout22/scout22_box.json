@@ -1,0 +1,53 @@
+{
+  "RecordType": "MGSC.TrashRecord",
+  "Data": {
+    "Id": "scout22_box",
+    "Categories": [],
+    "TechLevel": 4,
+    "Price": 1500.0,
+    "Weight": 2.0,
+    "InventoryWidthSize": 2,
+    "ItemClass": "MilitaryBarter",
+    "CanPutInVest": false,
+    "MaxStack": 1,
+    "SubType": "Container",
+    "Disassembly": [
+      {
+        "ItemId": "scout22_arm",
+        "Count": 1
+      },
+      {
+        "ItemId": "scout22_body",
+        "Count": 1
+      },
+      {
+        "ItemId": "scout22_chest",
+        "Count": 1
+      },
+      {
+        "ItemId": "scout22_feet",
+        "Count": 1
+      },
+      {
+        "ItemId": "scout22_hand",
+        "Count": 1
+      },
+      {
+        "ItemId": "scout22_head",
+        "Count": 1
+      },
+      {
+        "ItemId": "scout22_knee",
+        "Count": 1
+      },
+      {
+        "ItemId": "scout22_leg",
+        "Count": 1
+      },
+      {
+        "ItemId": "scout22_stomach",
+        "Count": 1
+      }
+    ]
+  }
+}

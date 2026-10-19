@@ -1,0 +1,33 @@
+{
+  "RecordType": "QM_ImporterAPI.Templates.LocalizationTemplate",
+  "Data": {
+    "Keys": {
+      "item.scout22_knee.name": {
+        "EnglishUS": "(Knee) SCOUT-22/F3",
+        "Russian": "",
+        "German": "",
+        "French": "",
+        "Spanish": "",
+        "Polish": "",
+        "Turkish": "",
+        "BrazilianPortugal": "",
+        "Korean": "",
+        "Japanese": "",
+        "ChineseSimp": ""
+      },
+      "item.scout22_knee.shortdesc": {
+        "EnglishUS": "Cybernetic Knee",
+        "Russian": "",
+        "German": "",
+        "French": "",
+        "Spanish": "",
+        "Polish": "",
+        "Turkish": "",
+        "BrazilianPortugal": "",
+        "Korean": "",
+        "Japanese": "",
+        "ChineseSimp": ""
+      }
+    }
+  }
+}

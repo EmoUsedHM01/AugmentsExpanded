@@ -1,0 +1,11 @@
+{
+  "RecordType": "QM_ImporterAPI.Templates.Descriptors.CustomDatadiskDescriptor",
+  "Data": {
+    "ItemId": "scout22_chip",
+    "ImageProperties": {
+      "IconSpriteIdOrPath": "Images/Datadisks/scout22_chip_inv.png",
+      "SmallIconSpriteIdOrPath": "Images/Datadisks/scout22_chip_floor.png",
+      "ShadowOnFloorSpriteIdOrPath": "Images/Datadisks/scout22_chip_shadow.png"
+    }
+  }
+}

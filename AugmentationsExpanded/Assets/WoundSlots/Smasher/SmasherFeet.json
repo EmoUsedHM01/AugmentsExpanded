@@ -1,0 +1,82 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "SmasherFeet",
+    "SlotType": "Feet",
+    "NatureType": "cyborg",
+    "SlotWeight": 8.0,
+    "CoreEffects": {
+      "dodge_reduce": -0.09
+    },
+    "AmputationCoreEffects": {
+      "run_unavailable": 0,
+      "dodge_reduce": -0.3
+    },
+    "ImplicitBonusEffects": {
+      "resist_blunt": 16,
+      "backpack_weight": -0.3,
+      "resist_pierce": 6,
+      "resist_lacer": 4,
+      "throwback_immune": 1,
+      "added_ap": 1,
+      "ranged_accuracy": 0.05,
+      "falloff_bonus": -0.05,
+      "scatter_angle": -0.05
+    },
+    "ImplicitPenaltyEffects": {
+      "max_health": -5,
+      "no_stealth": 1,
+      "dodge_reduce": -0.1
+    },
+    "IgnoreEffects": [
+      "food_unavailable",
+      "accuracy_reduce",
+      "dot_dmg",
+      "apoint_dmg",
+      "move_dmg",
+      "eat_dmg",
+      "vomiting",
+      "los_reduce"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "smasher_feet"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "ceramite_plates"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "armor_plates"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "capacitor_parts"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "circuit_board"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "spring"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "transformer"
+      }
+    ],
+    "AdditionalAmputation": [],
+    "IsGroundAffected": true,
+    "BareHandWeapon": "",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

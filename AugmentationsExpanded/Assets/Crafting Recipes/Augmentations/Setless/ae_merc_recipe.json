@@ -1,0 +1,30 @@
+{
+  "RecordType": "MGSC.ItemProduceReceipt",
+  "Data": {
+    "Id": "",
+    "OutputItem": "ae_merc",
+    "RequiredItems": [
+      {
+        "ItemId": "rusty_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "acid",
+        "Count": 3
+      },
+      {
+        "ItemId": "blunt_parts",
+        "Count": 2
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 1
+      }
+    ],
+    "ProduceTimeInHours": 36.0,
+    "ModifyStartCost": 1,
+    "ModifyStep": 1.05,
+    "ModifyItemsGrades": null,
+    "ModifyLevelLimit": 0
+  }
+}

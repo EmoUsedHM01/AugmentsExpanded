@@ -1,0 +1,43 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "smasher_leg",
+    "Categories": [
+      "Specops"
+    ],
+    "TechLevel": 7,
+    "Price": 1600,
+    "Weight": 1.9,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "SmasherThigh",
+      "SmasherFeet"
+    ],
+    "TooltipIconTag": "aug_type_leg",
+    "Disassembly": [
+      {
+        "ItemId": "smasher_feet",
+        "Count": 1
+      },
+      {
+        "ItemId": "ceramite_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "metal_tread",
+        "Count": 1
+      },
+      {
+        "ItemId": "weapon_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "blunt_parts",
+        "Count": 1
+      }
+    ]
+  }
+}

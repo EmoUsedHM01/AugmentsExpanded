@@ -1,0 +1,11 @@
+{
+  "RecordType": "QM_ImporterAPI.Templates.Descriptors.CustomAugmentationDescriptor",
+  "Data": {
+    "ItemId": "ae_dummy_special_gun_arm",
+    "ImageProperties": {
+      "IconSpriteIdOrPath": "Images/Augmentations/debug_component_inv.png",
+      "SmallIconSpriteIdOrPath": "Images/Augmentations/debug_component_floor.png",
+      "ShadowOnFloorSpriteIdOrPath": "Images/Augmentations/debug_component_shadow.png"
+    }
+  }
+}

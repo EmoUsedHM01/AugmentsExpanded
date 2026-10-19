@@ -1,0 +1,35 @@
+{
+  "RecordType": "MGSC.DatadiskRecord",
+  "Data": {
+    "Id": "scout22_chip",
+    "Categories": [
+      "Chip",
+      "Science",
+      "FrancheComte"
+    ],
+    "TechLevel": 3,
+    "Price": 550.0,
+    "Weight": 0.1,
+    "InventoryWidthSize": 1,
+    "ItemClass": "Blueprint",
+    "CanPutInVest": false,
+    "UnlockType": "ProductionItem",
+    "UnlockIds": [
+      "scout22_head",
+      "scout22_body",
+      "scout22_chest",
+      "scout22_stomach",
+      "scout22_arm",
+      "scout22_hand",
+      "scout22_leg",
+      "scout22_feet",
+      "scout22_knee"
+    ],
+    "Disassembly": [
+      {
+        "ItemId": "augment_chip",
+        "Count": 1
+      }
+    ]
+  }
+}

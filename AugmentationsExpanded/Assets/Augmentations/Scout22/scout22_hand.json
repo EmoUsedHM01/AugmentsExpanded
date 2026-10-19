@@ -1,0 +1,42 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "scout22_hand",
+    "Categories": [
+      "Common",
+      "Security",
+      "SWAT",
+      "Warden",
+      "FrancheComte"
+    ],
+    "TechLevel": 3,
+    "Price": 350.0,
+    "Weight": 0.6,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "Scout22Arm"
+    ],
+    "TooltipIconTag": "aug_type_hand",
+    "Disassembly": [
+      {
+        "ItemId": "rod_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "spring",
+        "Count": 1
+      },
+      {
+        "ItemId": "transformer",
+        "Count": 1
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "smasher_hand",
+    "Categories": [
+      "Specops"
+    ],
+    "TechLevel": 7,
+    "Price": 1000.0,
+    "Weight": 1.6,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "SmasherArm",
+      "SmasherShoulder"
+    ],
+    "TooltipIconTag": "aug_type_arm",
+    "Disassembly": [
+      {
+        "ItemId": "smasher_wrist",
+        "Count": 1
+      },
+      {
+        "ItemId": "ceramite_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "armor_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "metal_tread",
+        "Count": 1
+      },
+      {
+        "ItemId": "weapon_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "spring",
+        "Count": 1
+      },
+      {
+        "ItemId": "hydraulic_pump",
+        "Count": 1
+      }
+    ]
+  }
+}

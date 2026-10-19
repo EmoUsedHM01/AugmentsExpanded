@@ -1,0 +1,46 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "smasher_wrist",
+    "Categories": [
+      "Specops"
+    ],
+    "TechLevel": 7,
+    "Price": 1000.0,
+    "Weight": 0.9,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "SmasherArm"
+    ],
+    "TooltipIconTag": "aug_type_hand",
+    "Disassembly": [
+      {
+        "ItemId": "ceramite_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "armor_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "capacitor_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 1
+      },
+      {
+        "ItemId": "microelectronics_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "pierce_parts",
+        "Count": 1
+      }
+    ]
+  }
+}

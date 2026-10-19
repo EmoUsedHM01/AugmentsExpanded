@@ -1,0 +1,11 @@
+{
+  "RecordType": "QM_ImporterAPI.Templates.Descriptors.CustomDatadiskDescriptor",
+  "Data": {
+    "ItemId": "nacht_chip",
+    "ImageProperties": {
+      "IconSpriteIdOrPath": "Images/Datadisks/nacht_chip_inv.png",
+      "SmallIconSpriteIdOrPath": "Images/Datadisks/nacht_chip_floor.png",
+      "ShadowOnFloorSpriteIdOrPath": "Images/Datadisks/nacht_chip_shadow.png"
+    }
+  }
+}

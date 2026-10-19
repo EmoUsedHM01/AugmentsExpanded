@@ -1,0 +1,8 @@
+{
+  "RecordType": "MGSC.FireModeRecord",
+  "Data": {
+    "Id": "ae_disc_2",
+    "CloneFrom": "disc_2",
+    "ScatterAngle": 4.5
+  }
+}

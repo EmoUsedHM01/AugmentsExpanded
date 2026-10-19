@@ -1,0 +1,82 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "SmasherThigh",
+    "SlotType": "Thigh",
+    "NatureType": "cyborg",
+    "SlotWeight": 12.0,
+    "CoreEffects": {
+      "dodge_reduce": -0.09
+    },
+    "AmputationCoreEffects": {
+      "run_unavailable": 0,
+      "dodge_reduce": -0.3
+    },
+    "ImplicitBonusEffects": {
+      "added_ap": 2,
+      "resist_blunt": 4,
+      "resist_pierce": 4,
+      "resist_lacer": 4,
+      "backpack_weight": -0.5,
+      "melee_throw_range": 1.0,
+      "ranged_accuracy": 0.05,
+      "falloff_bonus": -0.05,
+      "scatter_angle": -0.05
+    },
+    "ImplicitPenaltyEffects": {
+      "max_health": -10,
+      "status_overheat": 0.02,
+      "wound_chance_mult": 0.25,
+      "resist_fire": -15,
+      "dodge_reduce": -0.15
+    },
+    "IgnoreEffects": [
+      "food_unavailable",
+      "accuracy_reduce",
+      "dot_dmg",
+      "apoint_dmg",
+      "move_dmg",
+      "eat_dmg",
+      "vomiting",
+      "los_reduce"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "smasher_leg"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "smasher_feet"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "ceramite_plates"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "metal_tread"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "weapon_parts"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "blunt_parts"
+      }
+    ],
+    "AdditionalAmputation": [
+      "Feet"
+    ],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

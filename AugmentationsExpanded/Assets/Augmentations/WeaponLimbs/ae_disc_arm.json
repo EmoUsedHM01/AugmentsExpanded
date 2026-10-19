@@ -1,0 +1,38 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "ae_disc_arm",
+    "Categories": [
+      "PMC",
+      "Tianming",
+      "CoreWard",
+      "CResistance"
+    ],
+    "TechLevel": 3,
+    "Price": 850,
+    "Weight": 1.6,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Ranged",
+    "WoundSlotIds": [
+      "AE_DiscArm",
+      "AE_DiscShoulder"
+    ],
+    "TooltipIconTag": "aug_type_arm",
+    "Disassembly": [
+      {
+        "ItemId": "spring",
+        "Count": 2
+      },
+      {
+        "ItemId": "blunt_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 1
+      }
+    ]
+  }
+}

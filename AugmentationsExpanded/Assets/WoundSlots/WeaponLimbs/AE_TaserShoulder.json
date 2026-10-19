@@ -1,0 +1,67 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "AE_TaserShoulder",
+    "SlotType": "Shoulder",
+    "NatureType": "cyborg",
+    "SlotWeight": 12.0,
+    "CoreEffects": {
+      "scatter_angle": 0.6
+    },
+    "AmputationCoreEffects": {
+      "arm_slot_unavailable": 0,
+      "scatter_angle": 1.2
+    },
+    "ImplicitBonusEffects": {
+      "bonus_vest_slot": 1,
+      "reload_duration": -1
+    },
+    "ImplicitPenaltyEffects": {
+      "max_health": -5
+    },
+    "IgnoreEffects": [
+      "run_unavailable",
+      "food_unavailable",
+      "dot_dmg",
+      "apoint_dmg",
+      "move_dmg",
+      "eat_dmg",
+      "vomiting",
+      "los_reduce"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "ae_taser_arm"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "transformer"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "capacitor_parts"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "rubber"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "circuit_board"
+      }
+    ],
+    "AdditionalAmputation": [
+      "Arm"
+    ],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

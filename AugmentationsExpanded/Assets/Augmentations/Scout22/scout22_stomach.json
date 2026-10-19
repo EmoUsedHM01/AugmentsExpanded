@@ -1,0 +1,42 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "scout22_stomach",
+    "Categories": [
+      "Common",
+      "Security",
+      "SWAT",
+      "Warden",
+      "FrancheComte"
+    ],
+    "TechLevel": 3,
+    "Price": 350.0,
+    "Weight": 1.0,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "Scout22Stomach"
+    ],
+    "TooltipIconTag": "aug_type_stomach",
+    "Disassembly": [
+      {
+        "ItemId": "armor_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "acid",
+        "Count": 2
+      },
+      {
+        "ItemId": "plastic",
+        "Count": 1
+      },
+      {
+        "ItemId": "rubber",
+        "Count": 1
+      }
+    ]
+  }
+}

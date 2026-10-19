@@ -1,0 +1,13 @@
+{
+  "RecordType": "MGSC.WeaponRecord",
+  "Data": {
+    "Id": "ae_nature_opi_fist",
+    "CloneFrom": "nature_human_fist",
+    "IsImplicit": true,
+    "WeaponClass": "Unarmed",
+    "Categories": [
+      "none"
+    ],
+    "Traits": []
+  }
+}

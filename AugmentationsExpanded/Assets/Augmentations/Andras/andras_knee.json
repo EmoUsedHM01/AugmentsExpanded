@@ -1,0 +1,38 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "andras_knee",
+    "Categories": [
+      "Quasi",
+      "Ur",
+      "Possessed",
+      "Possesed",
+      "Tezctlan"
+    ],
+    "TechLevel": 5,
+    "Price": 650.0,
+    "Weight": 1.0,
+    "InventoryWidthSize": 2,
+    "ItemClass": "QuasiAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "QuasiBody",
+    "WoundSlotIds": [
+      "AndrasKnee"
+    ],
+    "TooltipIconTag": "aug_type_knee",
+    "Disassembly": [
+      {
+        "ItemId": "human_rib",
+        "Count": 1
+      },
+      {
+        "ItemId": "human_meat",
+        "Count": 2
+      },
+      {
+        "ItemId": "quasi_medical_kit_1",
+        "Count": 1
+      }
+    ]
+  }
+}

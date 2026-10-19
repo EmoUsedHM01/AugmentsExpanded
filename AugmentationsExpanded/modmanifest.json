@@ -1,0 +1,12 @@
+{
+  "UniqueModName": "Augmentations_Expanded",
+  "Assemblies": [
+    "Augmentations_Expanded.dll"
+  ],
+  "Dependencies": [],
+  "SteamTags": [
+    "1.0",
+    "New Content",
+    "Gameplay Tweaks"
+  ]
+}

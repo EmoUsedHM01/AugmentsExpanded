@@ -1,0 +1,35 @@
+{
+  "RecordType": "MGSC.WeaponRecord",
+  "Data": {
+    "Id": "ae_nature_dummy_special_gun_arm",
+    "CloneFrom": "nature_cyborg_battle_machinegun",
+    "IsImplicit": true,
+    "WeaponClass": "AssaultRifle",
+    "Categories": [],
+    "Traits": [],
+    "RequiredAmmo": "Heavy",
+    "DefaultAmmoId": "rifle_basic_ammo",
+    "OverrideAmmo": [],
+    "Firemodes": [
+      "rifle_1"
+    ],
+    "MagazineCapacity": 10,
+    "MinRandomAmmoCount": 10,
+    "ReloadDuration": 4,
+    "Range": 8,
+    "Falloff": 0.19,
+    "BonusAccuracy": 0.12,
+    "BonusScatterAngle": 0.5,
+    "TechLevel": 4,
+    "Price": 0,
+    "Weight": 0,
+    "InventoryWidthSize": 2,
+    "Damage": {
+      "damage": "pierce",
+      "minDmg": 31,
+      "maxDmg": 46,
+      "critChance": 0.0,
+      "critDmg": 1.7
+    }
+  }
+}

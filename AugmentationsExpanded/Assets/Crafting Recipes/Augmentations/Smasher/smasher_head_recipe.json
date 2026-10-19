@@ -1,0 +1,38 @@
+{
+  "RecordType": "MGSC.ItemProduceReceipt",
+  "Data": {
+    "Id": "",
+    "OutputItem": "smasher_head",
+    "RequiredItems": [
+      {
+        "ItemId": "ceramite_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "plastic",
+        "Count": 1
+      },
+      {
+        "ItemId": "microelectronics_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "electrical_parts_container",
+        "Count": 1
+      },
+      {
+        "ItemId": "lens",
+        "Count": 1
+      },
+      {
+        "ItemId": "automap",
+        "Count": 1
+      }
+    ],
+    "ProduceTimeInHours": 66.0,
+    "ModifyStartCost": 1,
+    "ModifyStep": 1.05,
+    "ModifyItemsGrades": null,
+    "ModifyLevelLimit": 0
+  }
+}

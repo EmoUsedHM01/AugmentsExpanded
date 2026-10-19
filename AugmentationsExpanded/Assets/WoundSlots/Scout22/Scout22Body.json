@@ -1,0 +1,71 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "Scout22Body",
+    "SlotType": "Body",
+    "NatureType": "cyborg",
+    "SlotWeight": 16.0,
+    "CoreEffects": {
+      "more_resist_mult": -0.2
+    },
+    "AmputationCoreEffects": {
+      "more_resist_mult": -0.4
+    },
+    "ImplicitBonusEffects": {
+      "resist_blunt": 6,
+      "resist_lacer": 6,
+      "resist_shock": 4,
+      "income_pain": -0.25,
+      "pain_threshold_regen": 1
+    },
+    "ImplicitPenaltyEffects": {
+      "max_health": -5,
+      "resist_pierce": -4,
+      "resist_cold": -8,
+      "regen_efficacy": -0.15,
+      "dodge_reduce": -0.03
+    },
+    "IgnoreEffects": [
+      "run_unavailable",
+      "food_unavailable",
+      "dot_dmg",
+      "apoint_dmg",
+      "move_dmg",
+      "eat_dmg",
+      "vomiting",
+      "los_reduce"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "scout22_body"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "armor_plates"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "rubber"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "transformer"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "circuit_board"
+      }
+    ],
+    "AdditionalAmputation": [],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

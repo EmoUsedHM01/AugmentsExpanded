@@ -1,0 +1,11 @@
+{
+  "RecordType": "QM_ImporterAPI.Templates.Descriptors.CustomAugmentationDescriptor",
+  "Data": {
+    "ItemId": "nacht_knee",
+    "ImageProperties": {
+      "IconSpriteIdOrPath": "Images/Augmentations/nacht_component_inv.png",
+      "SmallIconSpriteIdOrPath": "Images/Augmentations/nacht_component_floor.png",
+      "ShadowOnFloorSpriteIdOrPath": "Images/Augmentations/nacht_component_shadow.png"
+    }
+  }
+}

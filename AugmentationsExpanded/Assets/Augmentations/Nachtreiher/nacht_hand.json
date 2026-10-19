@@ -1,0 +1,38 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "nacht_hand",
+    "Categories": [
+      "Specops"
+    ],
+    "TechLevel": 6,
+    "Price": 850.0,
+    "Weight": 0.7,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "NachtArm"
+    ],
+    "TooltipIconTag": "aug_type_hand",
+    "Disassembly": [
+      {
+        "ItemId": "pierce_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "spring",
+        "Count": 1
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 1
+      },
+      {
+        "ItemId": "blunt_parts",
+        "Count": 1
+      }
+    ]
+  }
+}

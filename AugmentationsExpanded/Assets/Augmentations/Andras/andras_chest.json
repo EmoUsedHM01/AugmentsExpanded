@@ -1,0 +1,42 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "andras_chest",
+    "Categories": [
+      "Quasi",
+      "Ur",
+      "Possessed",
+      "Possesed",
+      "Tezctlan"
+    ],
+    "TechLevel": 5,
+    "Price": 1000.0,
+    "Weight": 1.8,
+    "InventoryWidthSize": 2,
+    "ItemClass": "QuasiAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "QuasiBody",
+    "WoundSlotIds": [
+      "AndrasChest"
+    ],
+    "TooltipIconTag": "aug_type_chest",
+    "Disassembly": [
+      {
+        "ItemId": "human_skin",
+        "Count": 1
+      },
+      {
+        "ItemId": "human_rib",
+        "Count": 1
+      },
+      {
+        "ItemId": "human_meat",
+        "Count": 1
+      },
+      {
+        "ItemId": "quasi_medical_kit_1",
+        "Count": 1
+      }
+    ]
+  }
+}

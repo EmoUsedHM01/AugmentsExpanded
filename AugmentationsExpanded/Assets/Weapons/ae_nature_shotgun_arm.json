@@ -1,0 +1,36 @@
+{
+  "RecordType": "MGSC.WeaponRecord",
+  "Data": {
+    "Id": "ae_nature_shotgun_arm",
+    "CloneFrom": "military_shotgun_1",
+    "IsImplicit": true,
+    "Unbreakable": true,
+    "HideModel": true,
+    "WeaponClass": "Shotgun",
+    "Categories": [],
+    "Traits": [],
+    "RequiredAmmo": "Shells",
+    "DefaultAmmoId": "shotgun_shrapnel_ammo",
+    "Firemodes": [
+      "shotgun_1",
+      "shotgun_2"
+    ],
+    "MagazineCapacity": 6,
+    "MinRandomAmmoCount": 3,
+    "ReloadDuration": 4,
+    "Range": 4,
+    "Falloff": 0.25,
+    "BonusAccuracy": 0.15,
+    "BonusScatterAngle": 1.0,
+    "TechLevel": 3,
+    "Price": 0,
+    "Weight": 0,
+    "InventoryWidthSize": 2,
+    "Damage": {
+      "minDmg": 42,
+      "maxDmg": 74,
+      "critChance": 0.0,
+      "critDmg": 1.65
+    }
+  }
+}

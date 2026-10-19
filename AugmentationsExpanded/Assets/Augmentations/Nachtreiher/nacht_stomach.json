@@ -1,0 +1,38 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "nacht_stomach",
+    "Categories": [
+      "Specops"
+    ],
+    "TechLevel": 6,
+    "Price": 850.0,
+    "Weight": 1.1,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "NachtStomach"
+    ],
+    "TooltipIconTag": "aug_type_stomach",
+    "Disassembly": [
+      {
+        "ItemId": "biomass_tank",
+        "Count": 1
+      },
+      {
+        "ItemId": "hydraulic_pump",
+        "Count": 1
+      },
+      {
+        "ItemId": "blunt_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 1
+      }
+    ]
+  }
+}

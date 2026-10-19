@@ -1,0 +1,30 @@
+{
+  "RecordType": "MGSC.ItemProduceReceipt",
+  "Data": {
+    "Id": "",
+    "OutputItem": "scout22_chest",
+    "RequiredItems": [
+      {
+        "ItemId": "armor_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "transformer",
+        "Count": 1
+      },
+      {
+        "ItemId": "capacitor_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 2
+      }
+    ],
+    "ProduceTimeInHours": 36.0,
+    "ModifyStartCost": 1,
+    "ModifyStep": 1.05,
+    "ModifyItemsGrades": null,
+    "ModifyLevelLimit": 0
+  }
+}

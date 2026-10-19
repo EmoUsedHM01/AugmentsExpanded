@@ -1,0 +1,74 @@
+{
+  "RecordType": "MGSC.DatadiskRecord",
+  "Data": {
+    "Id": "opi_chip",
+    "Categories": [
+      "Chip",
+      "Science",
+      "UnchainedBelt"
+    ],
+    "TechLevel": 10,
+    "Price": 2000.0,
+    "Weight": 0.1,
+    "InventoryWidthSize": 1,
+    "ItemClass": "Blueprint",
+    "CanPutInVest": false,
+    "UnlockType": "ProductionItem",
+    "UnlockIds": [
+      "ae_opi",
+      "nacht_arm",
+      "nacht_body",
+      "nacht_chest",
+      "nacht_feet",
+      "nacht_hand",
+      "nacht_head",
+      "nacht_knee",
+      "nacht_leg",
+      "nacht_stomach",
+      "nemesis_chest",
+      "nemesis_feet",
+      "nemesis_guts",
+      "nemesis_hand",
+      "nemesis_head",
+      "nemesis_knee",
+      "nemesis_leg",
+      "nemesis_stomach",
+      "nemesis_wrist",
+      "scout22_arm",
+      "scout22_body",
+      "scout22_chest",
+      "scout22_feet",
+      "scout22_hand",
+      "scout22_head",
+      "scout22_knee",
+      "scout22_leg",
+      "scout22_stomach",
+      "ae_merc",
+      "smasher_chest",
+      "smasher_feet",
+      "smasher_guts",
+      "smasher_hand",
+      "smasher_head",
+      "smasher_knee",
+      "smasher_leg",
+      "smasher_stomach",
+      "smasher_wrist",
+      "ae_disc_arm",
+      "ae_gl_arm",
+      "ae_mantis_arm",
+      "ae_shotgun_arm",
+      "ae_taser_arm",
+      "ae_uhmg"
+    ],
+    "Disassembly": [
+      {
+        "ItemId": "augment_chip",
+        "Count": 1
+      },
+      {
+        "ItemId": "high_chip",
+        "Count": 1
+      }
+    ]
+  }
+}

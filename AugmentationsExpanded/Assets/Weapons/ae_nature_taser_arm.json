@@ -1,0 +1,42 @@
+{
+  "RecordType": "MGSC.WeaponRecord",
+  "Data": {
+    "Id": "ae_nature_taser_arm",
+    "CloneFrom": "common_shock_pistol_1",
+    "IsImplicit": true,
+    "Unbreakable": true,
+    "HideModel": true,
+    "WeaponClass": "Smg",
+    "Categories": [],
+    "Traits": [
+      "painful_crits"
+    ],
+    "RequiredAmmo": "BatteryCells",
+    "DefaultAmmoId": "battery_basic_ammo",
+    "OverrideAmmo": [
+      "implicted_stungun",
+      "implicted_stungun"
+    ],
+    "Firemodes": [
+      "lightning_3",
+      "lightning_5"
+    ],
+    "MagazineCapacity": 15,
+    "MinRandomAmmoCount": 8,
+    "ReloadDuration": 4,
+    "Range": 2,
+    "Falloff": 0.3,
+    "BonusAccuracy": 0.2,
+    "BonusScatterAngle": -1.5,
+    "TechLevel": 3,
+    "Price": 0,
+    "Weight": 0,
+    "InventoryWidthSize": 2,
+    "Damage": {
+      "minDmg": 1,
+      "maxDmg": 46,
+      "critChance": 0.0,
+      "critDmg": 2.0
+    }
+  }
+}

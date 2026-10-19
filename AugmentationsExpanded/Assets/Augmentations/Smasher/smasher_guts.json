@@ -1,0 +1,42 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "smasher_guts",
+    "Categories": [
+      "Specops"
+    ],
+    "TechLevel": 7,
+    "Price": 1600,
+    "Weight": 2.0,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "SmasherBody"
+    ],
+    "TooltipIconTag": "aug_type_body",
+    "Disassembly": [
+      {
+        "ItemId": "ceramite_plates",
+        "Count": 2
+      },
+      {
+        "ItemId": "armor_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "transformer",
+        "Count": 1
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 1
+      },
+      {
+        "ItemId": "communication_relay",
+        "Count": 1
+      }
+    ]
+  }
+}

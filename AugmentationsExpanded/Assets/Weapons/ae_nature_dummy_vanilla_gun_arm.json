@@ -1,0 +1,35 @@
+{
+  "RecordType": "MGSC.WeaponRecord",
+  "Data": {
+    "Id": "ae_nature_dummy_vanilla_gun_arm",
+    "CloneFrom": "nature_cyborg_battle_machinegun",
+    "IsImplicit": true,
+    "WeaponClass": "Pistol",
+    "Categories": [],
+    "Traits": [],
+    "RequiredAmmo": "Bullets",
+    "DefaultAmmoId": "small_basic_ammo",
+    "OverrideAmmo": [],
+    "Firemodes": [
+      "pistol_1"
+    ],
+    "MagazineCapacity": 10,
+    "MinRandomAmmoCount": 10,
+    "ReloadDuration": 3,
+    "Range": 6,
+    "Falloff": 0.22,
+    "BonusAccuracy": 0.18,
+    "BonusScatterAngle": 0.4,
+    "TechLevel": 4,
+    "Price": 0,
+    "Weight": 0,
+    "InventoryWidthSize": 2,
+    "Damage": {
+      "damage": "pierce",
+      "minDmg": 19,
+      "maxDmg": 28,
+      "critChance": 0.0,
+      "critDmg": 1.55
+    }
+  }
+}

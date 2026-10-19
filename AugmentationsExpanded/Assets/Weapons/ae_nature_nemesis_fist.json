@@ -1,0 +1,28 @@
+{
+  "RecordType": "MGSC.WeaponRecord",
+  "Data": {
+    "Id": "ae_nature_nemesis_fist",
+    "CloneFrom": "nature_possessed_bigarm_fist",
+    "IsImplicit": true,
+    "WeaponClass": "Unarmed",
+    "Categories": [
+      "none"
+    ],
+    "Traits": [],
+    "Firemodes": [
+      "punch_1",
+      "ae_chop_1"
+    ],
+    "OverrideAmmo": [
+      "none",
+      "implicted_sword_brutal"
+    ],
+    "BonusAccuracy": 0.35,
+    "Damage": {
+      "minDmg": 36,
+      "maxDmg": 48,
+      "critChance": 0.0,
+      "critDmg": 1.5
+    }
+  }
+}

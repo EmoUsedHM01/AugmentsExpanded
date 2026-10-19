@@ -1,0 +1,41 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "ae_taser_arm",
+    "Categories": [
+      "PMC",
+      "Dilthey",
+      "FrancheComte"
+    ],
+    "TechLevel": 3,
+    "Price": 700,
+    "Weight": 1.3,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Ranged",
+    "WoundSlotIds": [
+      "AE_TaserArm",
+      "AE_TaserShoulder"
+    ],
+    "TooltipIconTag": "aug_type_arm",
+    "Disassembly": [
+      {
+        "ItemId": "transformer",
+        "Count": 1
+      },
+      {
+        "ItemId": "capacitor_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "rubber",
+        "Count": 1
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "OPIArm",
+    "SlotType": "Arm",
+    "NatureType": "human",
+    "SlotWeight": 8.0,
+    "CoreEffects": {
+      "apoint_dmg": 1,
+      "accuracy_reduce": -0.1
+    },
+    "AmputationCoreEffects": {
+      "arm_slot_unavailable": 0,
+      "apoint_dmg": 2,
+      "accuracy_reduce": -0.2
+    },
+    "ImplicitBonusEffects": {
+      "max_health": 5,
+      "resist_blunt": 1,
+      "resist_lacer": 1,
+      "resist_pierce": 1,
+      "resist_shock": 1,
+      "resist_beam": 1,
+      "resist_fire": 1,
+      "resist_cold": 1,
+      "resist_poison": 1,
+      "ranged_accuracy": 0.05,
+      "critchance_reduce": 0.1,
+      "crit_damage": 0.1,
+      "melee_dmg_reduce": 0.05,
+      "melee_crit_chance": 0.1,
+      "added_wound_chance_mult": 0.1,
+      "reload_duration": -1,
+      "implant_drop_chance": 0.2
+    },
+    "ImplicitPenaltyEffects": {},
+    "IgnoreEffects": [
+      "run_unavailable",
+      "food_unavailable",
+      "move_dmg",
+      "vomiting",
+      "eat_dmg",
+      "los_reduce"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 0.1,
+        "Item2": "human_meat"
+      },
+      {
+        "Item1": 0.1,
+        "Item2": "human_wrist"
+      },
+      {
+        "Item1": 0.1,
+        "Item2": "human_skin"
+      },
+      {
+        "Item1": 0.1,
+        "Item2": "bone_knife"
+      }
+    ],
+    "AdditionalAmputation": [],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "ae_nature_opi_fist",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

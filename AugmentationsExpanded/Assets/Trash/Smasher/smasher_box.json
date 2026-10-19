@@ -1,0 +1,53 @@
+{
+  "RecordType": "MGSC.TrashRecord",
+  "Data": {
+    "Id": "smasher_box",
+    "Categories": [],
+    "TechLevel": 8,
+    "Price": 3000.0,
+    "Weight": 2.4,
+    "InventoryWidthSize": 2,
+    "ItemClass": "MilitaryBarter",
+    "CanPutInVest": false,
+    "MaxStack": 1,
+    "SubType": "Container",
+    "Disassembly": [
+      {
+        "ItemId": "smasher_head",
+        "Count": 1
+      },
+      {
+        "ItemId": "smasher_chest",
+        "Count": 1
+      },
+      {
+        "ItemId": "smasher_guts",
+        "Count": 1
+      },
+      {
+        "ItemId": "smasher_stomach",
+        "Count": 1
+      },
+      {
+        "ItemId": "smasher_hand",
+        "Count": 1
+      },
+      {
+        "ItemId": "smasher_wrist",
+        "Count": 1
+      },
+      {
+        "ItemId": "smasher_leg",
+        "Count": 1
+      },
+      {
+        "ItemId": "smasher_feet",
+        "Count": 1
+      },
+      {
+        "ItemId": "smasher_knee",
+        "Count": 1
+      }
+    ]
+  }
+}

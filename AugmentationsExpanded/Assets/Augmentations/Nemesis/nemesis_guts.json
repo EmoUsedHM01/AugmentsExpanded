@@ -1,0 +1,33 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "nemesis_guts",
+    "Categories": [
+      "Science",
+      "Medical",
+      "Prison",
+      "DaydreamChems"
+    ],
+    "TechLevel": 6,
+    "Price": 1300.0,
+    "Weight": 2.0,
+    "InventoryWidthSize": 2,
+    "ItemClass": "BioAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "NemesisBody"
+    ],
+    "TooltipIconTag": "aug_type_body",
+    "Disassembly": [
+      {
+        "ItemId": "human_skin",
+        "Count": 1
+      },
+      {
+        "ItemId": "human_meat",
+        "Count": 2
+      }
+    ]
+  }
+}

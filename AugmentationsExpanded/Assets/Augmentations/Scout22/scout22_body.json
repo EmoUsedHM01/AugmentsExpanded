@@ -1,0 +1,42 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "scout22_body",
+    "Categories": [
+      "Common",
+      "Security",
+      "SWAT",
+      "Warden",
+      "FrancheComte"
+    ],
+    "TechLevel": 3,
+    "Price": 400.0,
+    "Weight": 1.4,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "Scout22Body"
+    ],
+    "TooltipIconTag": "aug_type_body",
+    "Disassembly": [
+      {
+        "ItemId": "armor_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "rubber",
+        "Count": 1
+      },
+      {
+        "ItemId": "transformer",
+        "Count": 1
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 1
+      }
+    ]
+  }
+}

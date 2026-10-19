@@ -1,0 +1,79 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "Scout22Thigh",
+    "SlotType": "Thigh",
+    "NatureType": "cyborg",
+    "SlotWeight": 12.0,
+    "CoreEffects": {
+      "dodge_reduce": -0.09
+    },
+    "AmputationCoreEffects": {
+      "run_unavailable": 0,
+      "dodge_reduce": -0.3
+    },
+    "ImplicitBonusEffects": {
+      "resist_blunt": 7,
+      "resist_lacer": 4,
+      "resist_shock": 2,
+      "ranged_accuracy": 0.05,
+      "falloff_bonus": -0.05,
+      "bonus_vest_slot": 1,
+      "stealth_ap": 2
+    },
+    "ImplicitPenaltyEffects": {
+      "max_health": -3,
+      "dodge_reduce": -0.1,
+      "resist_pierce": -3,
+      "run_unavailable": 1
+    },
+    "IgnoreEffects": [
+      "run_unavailable",
+      "food_unavailable",
+      "dot_dmg",
+      "apoint_dmg",
+      "move_dmg",
+      "eat_dmg",
+      "vomiting",
+      "los_reduce"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "scout22_leg"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "scout22_feet"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "armor_plates"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "rod_parts"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "rubber"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "spring"
+      }
+    ],
+    "AdditionalAmputation": [
+      "Feet"
+    ],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

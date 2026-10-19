@@ -1,0 +1,46 @@
+{
+  "RecordType": "MGSC.WeaponRecord",
+  "Data": {
+    "Id": "ae_nature_gl_arm",
+    "CloneFrom": "grenade_launcher_1",
+    "IsImplicit": true,
+    "Unbreakable": true,
+    "HideModel": true,
+    "WeaponClass": "GrenadeLauncher",
+    "Categories": [],
+    "Traits": [
+      "single_load"
+    ],
+    "Firemodes": [
+      "launcher_1"
+    ],
+    "MagazineCapacity": 4,
+    "MinRandomAmmoCount": 2,
+    "ReloadDuration": 1,
+    "Range": 6,
+    "Falloff": 0.0,
+    "BonusAccuracy": 0.15,
+    "BonusScatterAngle": 0.0,
+    "TechLevel": 4,
+    "Price": 0,
+    "Weight": 0,
+    "InventoryWidthSize": 2,
+    "AllowedGrenadeIds": [
+      "frag_grenade",
+      "highexplosion_grenade",
+      "handmade_frag_grenade",
+      "quasi_grenade",
+      "thermal_grenade",
+      "stun_grenade",
+      "smoke_grenade",
+      "handmade_smoke_grenade",
+      "toxic_grenade",
+      "toxic_gas_grenade",
+      "frost_grenade",
+      "frost_gas_grenade",
+      "urparp_grenade",
+      "hellfire_grenade",
+      "nanorobot_grenade"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "SmasherHead",
+    "SlotType": "Head",
+    "NatureType": "cyborg",
+    "SlotWeight": 12.0,
+    "CoreEffects": {
+      "los_reduce": -2,
+      "accuracy_reduce": -0.15
+    },
+    "AmputationCoreEffects": {
+      "food_unavailable": 0,
+      "los_reduce": -99,
+      "accuracy_reduce": -0.3
+    },
+    "ImplicitBonusEffects": {
+      "ranged_accuracy": 0.2,
+      "crit_damage": 0.3,
+      "critchance_reduce": 0.15,
+      "falloff_bonus": -0.1,
+      "firearm_range": 1,
+      "walk_spotted_signal": 1,
+      "run_spotted_signal": 1,
+      "resist_blunt": 8,
+      "resist_pierce": 6,
+      "resist_lacer": 6,
+      "stun_immune": 1,
+      "los_reduce": 2,
+      "income_pain": -0.35
+    },
+    "ImplicitPenaltyEffects": {
+      "max_health": -10,
+      "fov_angle": -0.15,
+      "resist_shock": -12
+    },
+    "IgnoreEffects": [
+      "run_unavailable",
+      "income_dmg",
+      "dot_dmg",
+      "apoint_dmg",
+      "move_dmg",
+      "eat_dmg",
+      "vomiting",
+      "scatter_angle"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "smasher_head"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "ceramite_plates"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "plastic"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "microelectronics_parts"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "electrical_parts_container"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "lens"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "automap"
+      }
+    ],
+    "AdditionalAmputation": [],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

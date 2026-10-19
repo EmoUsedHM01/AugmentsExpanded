@@ -1,0 +1,34 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "nacht_feet",
+    "Categories": [
+      "Specops"
+    ],
+    "TechLevel": 6,
+    "Price": 850.0,
+    "Weight": 0.7,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "NachtFeet"
+    ],
+    "TooltipIconTag": "aug_type_foot",
+    "Disassembly": [
+      {
+        "ItemId": "spring",
+        "Count": 1
+      },
+      {
+        "ItemId": "armor_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "blunt_parts",
+        "Count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "ae_shotgun_arm",
+    "Categories": [
+      "PMC",
+      "RealWare",
+      "FrancheComte"
+    ],
+    "TechLevel": 3,
+    "Price": 700,
+    "Weight": 1.5,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Ranged",
+    "WoundSlotIds": [
+      "AE_ShotgunArm",
+      "AE_ShotgunShoulder"
+    ],
+    "TooltipIconTag": "aug_type_arm",
+    "Disassembly": [
+      {
+        "ItemId": "weapon_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "spring",
+        "Count": 1
+      },
+      {
+        "ItemId": "blunt_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 1
+      }
+    ]
+  }
+}

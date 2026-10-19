@@ -1,0 +1,11 @@
+{
+  "RecordType": "QM_ImporterAPI.Templates.Descriptors.CustomDatadiskDescriptor",
+  "Data": {
+    "ItemId": "opi_chip",
+    "ImageProperties": {
+      "IconSpriteIdOrPath": "Images/Datadisks/opi_chip_inv.png",
+      "SmallIconSpriteIdOrPath": "Images/Datadisks/opi_chip_floor.png",
+      "ShadowOnFloorSpriteIdOrPath": "Images/Datadisks/opi_chip_shadow.png"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "RecordType": "MGSC.DatadiskRecord",
+  "Data": {
+    "Id": "nacht_chip",
+    "Categories": [
+      "Chip",
+      "Science",
+      "AnCom"
+    ],
+    "TechLevel": 6,
+    "Price": 700.0,
+    "Weight": 0.1,
+    "InventoryWidthSize": 1,
+    "ItemClass": "Blueprint",
+    "CanPutInVest": false,
+    "UnlockType": "ProductionItem",
+    "UnlockIds": [
+      "nacht_head",
+      "nacht_chest",
+      "nacht_body",
+      "nacht_stomach",
+      "nacht_arm",
+      "nacht_hand",
+      "nacht_leg",
+      "nacht_knee",
+      "nacht_feet"
+    ],
+    "Disassembly": [
+      {
+        "ItemId": "augment_chip",
+        "Count": 1
+      }
+    ]
+  }
+}

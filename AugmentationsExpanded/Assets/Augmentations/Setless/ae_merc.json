@@ -1,0 +1,42 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "ae_merc",
+    "Categories": [
+      "Common",
+      "Worker",
+      "Miner",
+      "Security",
+      "Warden"
+    ],
+    "TechLevel": 3,
+    "Price": 400.0,
+    "Weight": 1.1,
+    "InventoryWidthSize": 1,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "AE_Merc"
+    ],
+    "TooltipIconTag": "aug_type_stomach",
+    "Disassembly": [
+      {
+        "ItemId": "rusty_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "acid",
+        "Count": 3
+      },
+      {
+        "ItemId": "blunt_parts",
+        "Count": 2
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 1
+      }
+    ]
+  }
+}

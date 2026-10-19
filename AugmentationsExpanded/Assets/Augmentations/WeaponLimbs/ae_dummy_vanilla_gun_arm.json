@@ -1,0 +1,32 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "ae_dummy_vanilla_gun_arm",
+    "Categories": [],
+    "TechLevel": 4,
+    "Price": 700,
+    "Weight": 2.0,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Ranged",
+    "WoundSlotIds": [
+      "AE_DummyVanillaGunArm"
+    ],
+    "TooltipIconTag": "aug_type_arm",
+    "Disassembly": [
+      {
+        "ItemId": "weapon_parts",
+        "Count": 2
+      },
+      {
+        "ItemId": "metal_tread",
+        "Count": 1
+      },
+      {
+        "ItemId": "spring",
+        "Count": 1
+      }
+    ]
+  }
+}

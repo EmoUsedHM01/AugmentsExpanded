@@ -1,0 +1,76 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "NachtStomach",
+    "SlotType": "Stomach",
+    "NatureType": "cyborg",
+    "SlotWeight": 6.0,
+    "CoreEffects": {
+      "food_unavailable": 0,
+      "consume_regen": 0,
+      "regen_efficacy": -0.2
+    },
+    "AmputationCoreEffects": {
+      "death": 0,
+      "food_unavailable": 0,
+      "consume_regen": 0,
+      "regen_efficacy": -0.4
+    },
+    "ImplicitBonusEffects": {
+      "fullness_dodge": 0.05,
+      "satiety": 0.2,
+      "food_calories": -0.1,
+      "passive_regen": 2,
+      "immune_poison": 1,
+      "status_immune_poisonEffect": 1
+    },
+    "ImplicitPenaltyEffects": {
+      "resist_fire": -10,
+      "max_health": -10,
+      "resist_shock": -10,
+      "resist_pierce": -7
+    },
+    "IgnoreEffects": [
+      "run_unavailable",
+      "food_unavailable",
+      "dot_dmg",
+      "apoint_dmg",
+      "move_dmg",
+      "eat_dmg",
+      "vomiting",
+      "los_reduce"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "nacht_stomach"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "biomass_tank"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "hydraulic_pump"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "blunt_parts"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "circuit_board"
+      }
+    ],
+    "AdditionalAmputation": [],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

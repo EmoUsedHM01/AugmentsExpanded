@@ -1,0 +1,80 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "NachtShoulder",
+    "SlotType": "Shoulder",
+    "NatureType": "cyborg",
+    "SlotWeight": 8.0,
+    "CoreEffects": {
+      "scatter_angle": 0.6
+    },
+    "AmputationCoreEffects": {
+      "arm_slot_unavailable": 0,
+      "scatter_angle": 1.2
+    },
+    "ImplicitBonusEffects": {
+      "ranged_accuracy": 0.15,
+      "critchance_reduce": 0.1,
+      "crit_damage": 0.15,
+      "resist_pierce": 4,
+      "sprint_accuracy_mult": -0.15,
+      "melee_throw_range": 2.0
+    },
+    "ImplicitPenaltyEffects": {
+      "scatter_angle": 0.1,
+      "resist_lacer": -5,
+      "resist_shock": -7,
+      "max_health": -10,
+      "wound_chance_mult": 0.05,
+      "items_weight": 0.05
+    },
+    "IgnoreEffects": [
+      "run_unavailable",
+      "food_unavailable",
+      "dot_dmg",
+      "apoint_dmg",
+      "move_dmg",
+      "eat_dmg",
+      "vomiting",
+      "los_reduce"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "nacht_arm"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "nacht_hand"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "spring"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "weapon_parts"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "circuit_board"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "blunt_parts"
+      }
+    ],
+    "AdditionalAmputation": [
+      "Arm"
+    ],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

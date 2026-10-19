@@ -1,0 +1,80 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "Scout22Shoulder",
+    "SlotType": "Shoulder",
+    "NatureType": "cyborg",
+    "SlotWeight": 12.0,
+    "CoreEffects": {
+      "scatter_angle": 0.6
+    },
+    "AmputationCoreEffects": {
+      "arm_slot_unavailable": 0,
+      "scatter_angle": 1.2
+    },
+    "ImplicitBonusEffects": {
+      "melee_stun_chance": 0.15,
+      "scatter_angle": -0.1,
+      "melee_accuracy": 0.05,
+      "ranged_accuracy": 0.1,
+      "resist_blunt": 6,
+      "resist_lacer": 5,
+      "resist_shock": 3
+    },
+    "ImplicitPenaltyEffects": {
+      "max_health": -2,
+      "resist_pierce": -3,
+      "dodge_reduce": -0.03,
+      "crit_damage": -0.05,
+      "critchance_reduce": -0.05
+    },
+    "IgnoreEffects": [
+      "run_unavailable",
+      "food_unavailable",
+      "dot_dmg",
+      "apoint_dmg",
+      "move_dmg",
+      "eat_dmg",
+      "vomiting",
+      "los_reduce"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "scout22_arm"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "scout22_hand"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "spring"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "weapon_parts"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "capacitor_parts"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "armor_plates"
+      }
+    ],
+    "AdditionalAmputation": [
+      "Arm"
+    ],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

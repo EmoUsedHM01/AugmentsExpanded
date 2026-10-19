@@ -1,0 +1,50 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "ae_uhmg",
+    "Categories": [
+      "Military",
+      "PMC",
+      "Merc",
+      "PlanetBridge",
+      "Tianming",
+      "RealWare"
+    ],
+    "TechLevel": 6,
+    "Price": 1800.0,
+    "Weight": 5.0,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Ranged",
+    "WoundSlotIds": [
+      "AE_UHMGArm",
+      "AE_UHMGShoulder",
+      "AE_UHMGChest"
+    ],
+    "TooltipIconTag": "aug_type_arm",
+    "ae_lose_augmentation_on_amputate": "On",
+    "Disassembly": [
+      {
+        "ItemId": "ceramite_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "armor_plates",
+        "Count": 2
+      },
+      {
+        "ItemId": "weapon_parts",
+        "Count": 2
+      },
+      {
+        "ItemId": "spring",
+        "Count": 1
+      },
+      {
+        "ItemId": "blunt_parts",
+        "Count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "Scout22Arm",
+    "SlotType": "Arm",
+    "NatureType": "cyborg",
+    "SlotWeight": 8.0,
+    "CoreEffects": {
+      "accuracy_reduce": -0.15
+    },
+    "AmputationCoreEffects": {
+      "arm_slot_unavailable": 0,
+      "accuracy_reduce": -0.3
+    },
+    "ImplicitBonusEffects": {
+      "melee_stun_chance": 0.1,
+      "melee_accuracy": 0.1,
+      "scatter_angle": -0.05,
+      "resist_blunt": 5,
+      "resist_lacer": 5,
+      "resist_shock": 3
+    },
+    "ImplicitPenaltyEffects": {
+      "max_health": -2,
+      "resist_pierce": -3,
+      "dodge_reduce": -0.03,
+      "crit_damage": -0.05,
+      "critchance_reduce": -0.05
+    },
+    "IgnoreEffects": [
+      "run_unavailable",
+      "food_unavailable",
+      "dot_dmg",
+      "apoint_dmg",
+      "move_dmg",
+      "eat_dmg",
+      "vomiting",
+      "los_reduce"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "scout22_hand"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "rod_parts"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "spring"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "transformer"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "circuit_board"
+      }
+    ],
+    "AdditionalAmputation": [],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "ae_nature_scout22_fist",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

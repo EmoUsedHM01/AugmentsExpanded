@@ -1,0 +1,53 @@
+{
+  "RecordType": "MGSC.TrashRecord",
+  "Data": {
+    "Id": "nemesis_box",
+    "Categories": [],
+    "TechLevel": 7,
+    "Price": 2400.0,
+    "Weight": 2.4,
+    "InventoryWidthSize": 2,
+    "ItemClass": "MilitaryBarter",
+    "CanPutInVest": false,
+    "MaxStack": 1,
+    "SubType": "Container",
+    "Disassembly": [
+      {
+        "ItemId": "nemesis_head",
+        "Count": 1
+      },
+      {
+        "ItemId": "nemesis_chest",
+        "Count": 1
+      },
+      {
+        "ItemId": "nemesis_guts",
+        "Count": 1
+      },
+      {
+        "ItemId": "nemesis_stomach",
+        "Count": 1
+      },
+      {
+        "ItemId": "nemesis_hand",
+        "Count": 1
+      },
+      {
+        "ItemId": "nemesis_wrist",
+        "Count": 1
+      },
+      {
+        "ItemId": "nemesis_leg",
+        "Count": 1
+      },
+      {
+        "ItemId": "nemesis_feet",
+        "Count": 1
+      },
+      {
+        "ItemId": "nemesis_knee",
+        "Count": 1
+      }
+    ]
+  }
+}

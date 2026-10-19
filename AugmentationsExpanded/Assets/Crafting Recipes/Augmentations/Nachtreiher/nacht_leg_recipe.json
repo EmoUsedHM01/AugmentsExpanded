@@ -1,0 +1,30 @@
+{
+  "RecordType": "MGSC.ItemProduceReceipt",
+  "Data": {
+    "Id": "",
+    "OutputItem": "nacht_leg",
+    "RequiredItems": [
+      {
+        "ItemId": "nacht_feet",
+        "Count": 1
+      },
+      {
+        "ItemId": "spring",
+        "Count": 1
+      },
+      {
+        "ItemId": "blunt_parts",
+        "Count": 2
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 1
+      }
+    ],
+    "ProduceTimeInHours": 48.0,
+    "ModifyStartCost": 1,
+    "ModifyStep": 1.05,
+    "ModifyItemsGrades": null,
+    "ModifyLevelLimit": 0
+  }
+}

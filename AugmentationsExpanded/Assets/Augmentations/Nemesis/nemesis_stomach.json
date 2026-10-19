@@ -1,0 +1,29 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "nemesis_stomach",
+    "Categories": [
+      "Science",
+      "Medical",
+      "Prison",
+      "DaydreamChems"
+    ],
+    "TechLevel": 6,
+    "Price": 1300.0,
+    "Weight": 1.4,
+    "InventoryWidthSize": 2,
+    "ItemClass": "BioAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "NemesisStomach"
+    ],
+    "TooltipIconTag": "aug_type_stomach",
+    "Disassembly": [
+      {
+        "ItemId": "human_meat",
+        "Count": 3
+      }
+    ]
+  }
+}

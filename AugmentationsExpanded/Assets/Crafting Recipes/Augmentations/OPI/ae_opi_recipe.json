@@ -1,0 +1,38 @@
+{
+  "RecordType": "MGSC.ItemProduceReceipt",
+  "Data": {
+    "Id": "",
+    "OutputItem": "ae_opi",
+    "RequiredItems": [
+      {
+        "ItemId": "quasi_medical_kit_1",
+        "Count": 1
+      },
+      {
+        "ItemId": "quasi_ron_medicine_1",
+        "Count": 1
+      },
+      {
+        "ItemId": "quasisamples",
+        "Count": 1
+      },
+      {
+        "ItemId": "organs_box",
+        "Count": 1
+      },
+      {
+        "ItemId": "biomass_tank",
+        "Count": 2
+      },
+      {
+        "ItemId": "drug_cargo",
+        "Count": 1
+      }
+    ],
+    "ProduceTimeInHours": 72.0,
+    "ModifyStartCost": 1,
+    "ModifyStep": 1.05,
+    "ModifyItemsGrades": null,
+    "ModifyLevelLimit": 0
+  }
+}

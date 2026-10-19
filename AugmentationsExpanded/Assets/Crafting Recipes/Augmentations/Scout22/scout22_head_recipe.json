@@ -1,0 +1,34 @@
+{
+  "RecordType": "MGSC.ItemProduceReceipt",
+  "Data": {
+    "Id": "",
+    "OutputItem": "scout22_head",
+    "RequiredItems": [
+      {
+        "ItemId": "armor_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "lens",
+        "Count": 1
+      },
+      {
+        "ItemId": "bulb",
+        "Count": 1
+      },
+      {
+        "ItemId": "plastic",
+        "Count": 1
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 1
+      }
+    ],
+    "ProduceTimeInHours": 36.0,
+    "ModifyStartCost": 1,
+    "ModifyStep": 1.05,
+    "ModifyItemsGrades": null,
+    "ModifyLevelLimit": 0
+  }
+}

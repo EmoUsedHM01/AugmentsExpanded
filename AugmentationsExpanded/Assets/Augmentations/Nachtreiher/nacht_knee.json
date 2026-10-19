@@ -1,0 +1,38 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "nacht_knee",
+    "Categories": [
+      "Specops"
+    ],
+    "TechLevel": 6,
+    "Price": 850.0,
+    "Weight": 0.9,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "NachtKnee"
+    ],
+    "TooltipIconTag": "aug_type_knee",
+    "Disassembly": [
+      {
+        "ItemId": "spring",
+        "Count": 2
+      },
+      {
+        "ItemId": "blunt_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "armor_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "rubber",
+        "Count": 1
+      }
+    ]
+  }
+}

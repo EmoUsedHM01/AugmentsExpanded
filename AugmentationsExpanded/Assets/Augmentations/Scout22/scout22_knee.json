@@ -1,0 +1,38 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "scout22_knee",
+    "Categories": [
+      "Common",
+      "Security",
+      "SWAT",
+      "Warden",
+      "FrancheComte"
+    ],
+    "TechLevel": 3,
+    "Price": 350.0,
+    "Weight": 0.8,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "Scout22Knee"
+    ],
+    "TooltipIconTag": "aug_type_knee",
+    "Disassembly": [
+      {
+        "ItemId": "rusty_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "spring",
+        "Count": 2
+      },
+      {
+        "ItemId": "rubber",
+        "Count": 1
+      }
+    ]
+  }
+}

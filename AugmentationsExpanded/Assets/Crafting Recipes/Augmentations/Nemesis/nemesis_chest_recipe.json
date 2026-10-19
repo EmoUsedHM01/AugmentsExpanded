@@ -1,0 +1,34 @@
+{
+  "RecordType": "MGSC.ItemProduceReceipt",
+  "Data": {
+    "Id": "",
+    "OutputItem": "nemesis_chest",
+    "RequiredItems": [
+      {
+        "ItemId": "human_skin",
+        "Count": 2
+      },
+      {
+        "ItemId": "human_rib",
+        "Count": 1
+      },
+      {
+        "ItemId": "biomass_tank",
+        "Count": 1
+      },
+      {
+        "ItemId": "medical_components",
+        "Count": 1
+      },
+      {
+        "ItemId": "human_meat",
+        "Count": 2
+      }
+    ],
+    "ProduceTimeInHours": 24.0,
+    "ModifyStartCost": 1,
+    "ModifyStep": 1.05,
+    "ModifyItemsGrades": null,
+    "ModifyLevelLimit": 0
+  }
+}

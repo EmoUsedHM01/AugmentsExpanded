@@ -1,0 +1,35 @@
+{
+  "RecordType": "MGSC.DatadiskRecord",
+  "Data": {
+    "Id": "nemesis_chip",
+    "Categories": [
+      "Chip",
+      "Science",
+      "DaydreamChems"
+    ],
+    "TechLevel": 6,
+    "Price": 900.0,
+    "Weight": 0.1,
+    "InventoryWidthSize": 1,
+    "ItemClass": "Blueprint",
+    "CanPutInVest": false,
+    "UnlockType": "ProductionItem",
+    "UnlockIds": [
+      "nemesis_head",
+      "nemesis_chest",
+      "nemesis_guts",
+      "nemesis_stomach",
+      "nemesis_hand",
+      "nemesis_wrist",
+      "nemesis_leg",
+      "nemesis_feet",
+      "nemesis_knee"
+    ],
+    "Disassembly": [
+      {
+        "ItemId": "augment_chip",
+        "Count": 1
+      }
+    ]
+  }
+}

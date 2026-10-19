@@ -1,0 +1,39 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "nacht_leg",
+    "Categories": [
+      "Specops"
+    ],
+    "TechLevel": 6,
+    "Price": 1300.0,
+    "Weight": 1.3,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "NachtThigh",
+      "NachtFeet"
+    ],
+    "TooltipIconTag": "aug_type_leg",
+    "Disassembly": [
+      {
+        "ItemId": "nacht_feet",
+        "Count": 1
+      },
+      {
+        "ItemId": "spring",
+        "Count": 1
+      },
+      {
+        "ItemId": "blunt_parts",
+        "Count": 2
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 1
+      }
+    ]
+  }
+}

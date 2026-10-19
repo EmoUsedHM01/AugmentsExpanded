@@ -1,0 +1,53 @@
+{
+  "RecordType": "MGSC.TrashRecord",
+  "Data": {
+    "Id": "nacht_box",
+    "Categories": [],
+    "TechLevel": 7,
+    "Price": 3000.0,
+    "Weight": 2.0,
+    "InventoryWidthSize": 2,
+    "ItemClass": "MilitaryBarter",
+    "CanPutInVest": false,
+    "MaxStack": 1,
+    "SubType": "Container",
+    "Disassembly": [
+      {
+        "ItemId": "nacht_arm",
+        "Count": 1
+      },
+      {
+        "ItemId": "nacht_body",
+        "Count": 1
+      },
+      {
+        "ItemId": "nacht_chest",
+        "Count": 1
+      },
+      {
+        "ItemId": "nacht_feet",
+        "Count": 1
+      },
+      {
+        "ItemId": "nacht_hand",
+        "Count": 1
+      },
+      {
+        "ItemId": "nacht_head",
+        "Count": 1
+      },
+      {
+        "ItemId": "nacht_knee",
+        "Count": 1
+      },
+      {
+        "ItemId": "nacht_leg",
+        "Count": 1
+      },
+      {
+        "ItemId": "nacht_stomach",
+        "Count": 1
+      }
+    ]
+  }
+}

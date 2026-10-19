@@ -1,0 +1,42 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "nemesis_leg",
+    "Categories": [
+      "Science",
+      "Medical",
+      "Prison",
+      "DaydreamChems"
+    ],
+    "TechLevel": 6,
+    "Price": 1300.0,
+    "Weight": 1.9,
+    "InventoryWidthSize": 2,
+    "ItemClass": "BioAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "NemesisThigh",
+      "NemesisFeet"
+    ],
+    "TooltipIconTag": "aug_type_leg",
+    "Disassembly": [
+      {
+        "ItemId": "nemesis_feet",
+        "Count": 1
+      },
+      {
+        "ItemId": "human_skin",
+        "Count": 1
+      },
+      {
+        "ItemId": "human_rib",
+        "Count": 1
+      },
+      {
+        "ItemId": "human_meat",
+        "Count": 1
+      }
+    ]
+  }
+}

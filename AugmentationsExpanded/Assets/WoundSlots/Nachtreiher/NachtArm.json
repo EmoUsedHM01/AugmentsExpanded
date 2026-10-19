@@ -1,0 +1,72 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "NachtArm",
+    "SlotType": "Arm",
+    "NatureType": "cyborg",
+    "SlotWeight": 5.0,
+    "CoreEffects": {
+      "accuracy_reduce": -0.15
+    },
+    "AmputationCoreEffects": {
+      "arm_slot_unavailable": 0,
+      "accuracy_reduce": -0.3
+    },
+    "ImplicitBonusEffects": {
+      "ranged_accuracy": 0.1,
+      "reload_duration": -2,
+      "crit_damage": 0.1,
+      "sprint_accuracy_mult": -0.1,
+      "critchance_reduce": 0.2,
+      "resist_pierce": 2
+    },
+    "ImplicitPenaltyEffects": {
+      "scatter_angle": 0.05,
+      "resist_shock": -4,
+      "max_health": -5,
+      "items_weight": 0.05
+    },
+    "IgnoreEffects": [
+      "run_unavailable",
+      "food_unavailable",
+      "dot_dmg",
+      "apoint_dmg",
+      "move_dmg",
+      "eat_dmg",
+      "vomiting",
+      "los_reduce"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "nacht_hand"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "pierce_parts"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "spring"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "circuit_board"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "blunt_parts"
+      }
+    ],
+    "AdditionalAmputation": [],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "ae_nature_nacht_fist",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

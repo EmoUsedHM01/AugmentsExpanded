@@ -1,0 +1,9 @@
+{
+  "RecordType": "MGSC.FireModeRecord",
+  "Data": {
+    "Id": "ae_uhmg_burst_6",
+    "CloneFrom": "rifle_6",
+    "Accuracy": 0.0,
+    "ScatterAngle": 3.5
+  }
+}

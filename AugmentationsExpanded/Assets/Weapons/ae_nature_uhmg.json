@@ -1,0 +1,41 @@
+{
+  "RecordType": "MGSC.WeaponRecord",
+  "Data": {
+    "Id": "ae_nature_uhmg",
+    "CloneFrom": "nature_cyborg_battle_machinegun",
+    "IsImplicit": true,
+    "Unbreakable": true,
+    "WeaponClass": "Minigun",
+    "Categories": [],
+    "Traits": [
+      "ramp_up",
+      "suppressive_fire",
+      "heavy_weapon"
+    ],
+    "RequiredAmmo": "SuperHeavy",
+    "DefaultAmmoId": "heavy_basic_ammo",
+    "OverrideAmmo": [],
+    "Firemodes": [
+      "ae_uhmg_burst_6",
+      "ae_uhmg_suppressive_9"
+    ],
+    "MagazineCapacity": 300,
+    "MinRandomAmmoCount": 225,
+    "ReloadDuration": 12,
+    "Range": 6,
+    "Falloff": 0.13,
+    "BonusAccuracy": 0.2,
+    "BonusScatterAngle": 4.0,
+    "TechLevel": 6,
+    "Price": 0,
+    "Weight": 0,
+    "InventoryWidthSize": 2,
+    "Damage": {
+      "minDmg": 42,
+      "maxDmg": 65,
+      "critChance": 0.0,
+      "critDmg": 1.5
+    },
+    "ae_crit_chance_bonus": 0.02
+  }
+}

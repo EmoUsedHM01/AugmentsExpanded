@@ -1,0 +1,11 @@
+{
+  "RecordType": "QM_ImporterAPI.Templates.Descriptors.CustomAugmentationDescriptor",
+  "Data": {
+    "ItemId": "ae_merc",
+    "ImageProperties": {
+      "IconSpriteIdOrPath": "Images/Augmentations/merc_case_inv.png",
+      "SmallIconSpriteIdOrPath": "Images/Augmentations/merc_case_floor.png",
+      "ShadowOnFloorSpriteIdOrPath": "Images/Augmentations/merc_case_shadow.png"
+    }
+  }
+}

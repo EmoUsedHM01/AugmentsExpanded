@@ -1,0 +1,81 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "SmasherStomach",
+    "SlotType": "Stomach",
+    "NatureType": "cyborg",
+    "SlotWeight": 9.0,
+    "CoreEffects": {
+      "food_unavailable": 0,
+      "consume_regen": 0,
+      "regen_efficacy": -0.2
+    },
+    "AmputationCoreEffects": {
+      "death": 0,
+      "food_unavailable": 0,
+      "consume_regen": 0,
+      "regen_efficacy": -0.4
+    },
+    "ImplicitBonusEffects": {
+      "immune_poison": 1,
+      "wound_immune_poison": 1,
+      "status_immune_poisonEffect": 1,
+      "food_calories": -0.8,
+      "resist_pierce": 8,
+      "resist_blunt": 6,
+      "resist_lacer": 6
+    },
+    "ImplicitPenaltyEffects": {
+      "max_health": -15,
+      "satiety": -0.5
+    },
+    "IgnoreEffects": [
+      "run_unavailable",
+      "accuracy_reduce",
+      "dodge_reduce",
+      "dot_dmg",
+      "apoint_dmg",
+      "move_dmg",
+      "eat_dmg",
+      "vomiting",
+      "los_reduce",
+      "scatter_angle"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "smasher_stomach"
+      },
+      {
+        "Item1": 2.0,
+        "Item2": "ceramite_plates"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "capacitor_parts"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "circuit_board"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "hydraulic_pump"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "biomass_tank"
+      }
+    ],
+    "AdditionalAmputation": [],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

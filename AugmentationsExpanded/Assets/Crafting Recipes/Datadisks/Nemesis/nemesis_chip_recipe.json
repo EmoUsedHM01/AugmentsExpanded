@@ -1,0 +1,30 @@
+{
+  "RecordType": "MGSC.ItemProduceReceipt",
+  "Data": {
+    "Id": "",
+    "OutputItem": "nemesis_chip",
+    "RequiredItems": [
+      {
+        "ItemId": "augment_chip",
+        "Count": 1
+      },
+      {
+        "ItemId": "human_meat",
+        "Count": 1
+      },
+      {
+        "ItemId": "human_rib",
+        "Count": 1
+      },
+      {
+        "ItemId": "human_skin",
+        "Count": 1
+      }
+    ],
+    "ProduceTimeInHours": 12.0,
+    "ModifyStartCost": 1,
+    "ModifyStep": 1.05,
+    "ModifyItemsGrades": null,
+    "ModifyLevelLimit": 0
+  }
+}

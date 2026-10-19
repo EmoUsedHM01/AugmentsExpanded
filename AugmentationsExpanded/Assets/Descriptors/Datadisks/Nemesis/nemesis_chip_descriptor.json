@@ -1,0 +1,11 @@
+{
+  "RecordType": "QM_ImporterAPI.Templates.Descriptors.CustomDatadiskDescriptor",
+  "Data": {
+    "ItemId": "nemesis_chip",
+    "ImageProperties": {
+      "IconSpriteIdOrPath": "Images/Datadisks/nemesis_chip_inv.png",
+      "SmallIconSpriteIdOrPath": "Images/Datadisks/nemesis_chip_floor.png",
+      "ShadowOnFloorSpriteIdOrPath": "Images/Datadisks/nemesis_chip_shadow.png"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "RecordType": "MGSC.TrashRecord",
+  "Data": {
+    "Id": "andras_box",
+    "Categories": [],
+    "TechLevel": 6,
+    "Price": 2000.0,
+    "Weight": 2.4,
+    "InventoryWidthSize": 2,
+    "ItemClass": "MilitaryBarter",
+    "CanPutInVest": false,
+    "MaxStack": 1,
+    "SubType": "Container",
+    "Disassembly": [
+      {
+        "ItemId": "andras_head",
+        "Count": 1
+      },
+      {
+        "ItemId": "andras_chest",
+        "Count": 1
+      },
+      {
+        "ItemId": "andras_guts",
+        "Count": 1
+      },
+      {
+        "ItemId": "andras_stomach",
+        "Count": 1
+      },
+      {
+        "ItemId": "andras_hand",
+        "Count": 1
+      },
+      {
+        "ItemId": "andras_wrist",
+        "Count": 1
+      },
+      {
+        "ItemId": "andras_leg",
+        "Count": 1
+      },
+      {
+        "ItemId": "andras_feet",
+        "Count": 1
+      },
+      {
+        "ItemId": "andras_knee",
+        "Count": 1
+      }
+    ]
+  }
+}

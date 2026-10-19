@@ -1,0 +1,42 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "nacht_body",
+    "Categories": [
+      "Specops"
+    ],
+    "TechLevel": 6,
+    "Price": 850.0,
+    "Weight": 1.5,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Body",
+    "WoundSlotIds": [
+      "NachtBody"
+    ],
+    "TooltipIconTag": "aug_type_body",
+    "Disassembly": [
+      {
+        "ItemId": "armor_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 1
+      },
+      {
+        "ItemId": "communication_relay",
+        "Count": 1
+      },
+      {
+        "ItemId": "capacitor_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "blunt_parts",
+        "Count": 1
+      }
+    ]
+  }
+}

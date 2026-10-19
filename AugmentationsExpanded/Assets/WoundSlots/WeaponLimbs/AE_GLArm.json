@@ -1,0 +1,66 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "AE_GLArm",
+    "SlotType": "Arm",
+    "NatureType": "cyborg",
+    "SlotWeight": 8.0,
+    "CoreEffects": {
+      "accuracy_reduce": -0.15
+    },
+    "AmputationCoreEffects": {
+      "arm_slot_unavailable": 0,
+      "accuracy_reduce": -0.3
+    },
+    "ImplicitBonusEffects": {
+      "resist_fire": 8,
+      "resist_blunt": 7,
+      "resist_pierce": 5,
+      "resist_lacer": 5
+    },
+    "ImplicitPenaltyEffects": {
+      "max_health": -5,
+      "arm_slot_unavailable": 1,
+      "dodge_reduce": -0.1,
+      "resist_shock": -8
+    },
+    "IgnoreEffects": [
+      "run_unavailable",
+      "food_unavailable",
+      "dot_dmg",
+      "apoint_dmg",
+      "move_dmg",
+      "eat_dmg",
+      "vomiting",
+      "los_reduce"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 1.0,
+        "Item2": "weapon_parts"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "metal_tread"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "spring"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "circuit_board"
+      }
+    ],
+    "AdditionalAmputation": [],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "ae_nature_gl_arm",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

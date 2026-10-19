@@ -1,0 +1,26 @@
+{
+  "RecordType": "MGSC.ItemProduceReceipt",
+  "Data": {
+    "Id": "",
+    "OutputItem": "nemesis_stomach",
+    "RequiredItems": [
+      {
+        "ItemId": "organs_box",
+        "Count": 2
+      },
+      {
+        "ItemId": "biomass_tank",
+        "Count": 1
+      },
+      {
+        "ItemId": "human_meat",
+        "Count": 2
+      }
+    ],
+    "ProduceTimeInHours": 24.0,
+    "ModifyStartCost": 1,
+    "ModifyStep": 1.05,
+    "ModifyItemsGrades": null,
+    "ModifyLevelLimit": 0
+  }
+}

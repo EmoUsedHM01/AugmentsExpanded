@@ -1,0 +1,78 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "OPIHead",
+    "SlotType": "Head",
+    "NatureType": "human",
+    "SlotWeight": 12.0,
+    "CoreEffects": {
+      "dot_dmg": 1,
+      "vomiting": 0.05,
+      "los_reduce": -1,
+      "accuracy_reduce": -0.1
+    },
+    "AmputationCoreEffects": {
+      "death": 0,
+      "dot_dmg": 2,
+      "los_reduce": -99,
+      "accuracy_reduce": -0.2
+    },
+    "ImplicitBonusEffects": {
+      "max_health": 5,
+      "resist_blunt": 2,
+      "resist_lacer": 2,
+      "resist_pierce": 2,
+      "resist_shock": 2,
+      "resist_beam": 2,
+      "resist_fire": 2,
+      "resist_cold": 2,
+      "resist_poison": 2,
+      "income_pain": -0.15,
+      "more_dmg_mult": 0.1,
+      "critchance_reduce": 0.1,
+      "ranged_accuracy": 0.05,
+      "firearm_range": 2,
+      "perk_cooldown": -0.1,
+      "sprint_accuracy_mult": -0.1
+    },
+    "ImplicitPenaltyEffects": {},
+    "IgnoreEffects": [
+      "run_unavailable",
+      "income_dmg",
+      "move_dmg",
+      "scatter_angle"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 0.1,
+        "Item2": "human_meat"
+      },
+      {
+        "Item1": 0.1,
+        "Item2": "human_skin"
+      },
+      {
+        "Item1": 0.1,
+        "Item2": "human_skull"
+      },
+      {
+        "Item1": 0.1,
+        "Item2": "human_ear"
+      },
+      {
+        "Item1": 0.1,
+        "Item2": "human_eye"
+      }
+    ],
+    "AdditionalAmputation": [],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

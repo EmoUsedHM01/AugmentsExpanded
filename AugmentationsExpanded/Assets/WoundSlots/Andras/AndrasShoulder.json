@@ -1,0 +1,90 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "AndrasShoulder",
+    "SlotType": "Shoulder",
+    "NatureType": "quasimorph",
+    "SlotWeight": 14.0,
+    "CoreEffects": {
+      "apoint_dmg": 2,
+      "scatter_angle": 0.2
+    },
+    "AmputationCoreEffects": {
+      "arm_slot_unavailable": 0,
+      "apoint_dmg": 3,
+      "scatter_angle": 0.4
+    },
+    "ImplicitBonusEffects": {
+      "resist_blunt": 7,
+      "resist_lacer": 6,
+      "resist_pierce": 6,
+      "resist_shock": 3,
+      "resist_beam": 3,
+      "resist_fire": 3,
+      "resist_cold": 4,
+      "resist_poison": 2,
+      "max_health": 10,
+      "melee_accuracy": 0.2,
+      "melee_dmg_reduce": 0.15,
+      "crit_damage": 0.45,
+      "multi_hit": 1,
+      "items_weight": -0.05,
+      "pain_to_melee_dmg": 1
+    },
+    "ImplicitPenaltyEffects": {
+      "qmorph": 1,
+      "scatter_angle": 0.2,
+      "dodge_reduce": -0.1,
+      "ranged_accuracy": -0.2,
+      "income_pain": 0.05,
+      "firearm_range": -1,
+      "reload_duration": 2
+    },
+    "IgnoreEffects": [
+      "run_unavailable",
+      "food_unavailable",
+      "move_dmg",
+      "vomiting",
+      "eat_dmg",
+      "los_reduce"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "andras_hand"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "andras_wrist"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "human_skin"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "human_rib"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "human_meat"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "quasi_medical_kit_1"
+      }
+    ],
+    "AdditionalAmputation": [
+      "Arm"
+    ],
+    "IsGroundAffected": false,
+    "BareHandWeapon": "",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}

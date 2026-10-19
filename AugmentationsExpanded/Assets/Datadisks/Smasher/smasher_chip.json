@@ -1,0 +1,35 @@
+{
+  "RecordType": "MGSC.DatadiskRecord",
+  "Data": {
+    "Id": "smasher_chip",
+    "Categories": [
+      "Chip",
+      "Science",
+      "RealWare"
+    ],
+    "TechLevel": 7,
+    "Price": 900.0,
+    "Weight": 0.1,
+    "InventoryWidthSize": 1,
+    "ItemClass": "Blueprint",
+    "CanPutInVest": false,
+    "UnlockType": "ProductionItem",
+    "UnlockIds": [
+      "smasher_head",
+      "smasher_chest",
+      "smasher_guts",
+      "smasher_stomach",
+      "smasher_hand",
+      "smasher_wrist",
+      "smasher_leg",
+      "smasher_feet",
+      "smasher_knee"
+    ],
+    "Disassembly": [
+      {
+        "ItemId": "augment_chip",
+        "Count": 1
+      }
+    ]
+  }
+}

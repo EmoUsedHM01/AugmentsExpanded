@@ -1,0 +1,72 @@
+{
+  "RecordType": "QM_ImporterAPI.Templates.LocalizationTemplate",
+  "Data": {
+    "Keys": {
+      "firemode.ae_disc_2.name": {
+        "EnglishUS": "burst",
+        "Russian": "с отсечкой",
+        "German": "Feuerstoß",
+        "French": "rafale",
+        "Spanish": "explosión",
+        "Polish": "seria",
+        "Turkish": "seri ateş",
+        "BrazilianPortugal": "rajada",
+        "Korean": "점사",
+        "Japanese": "バースト",
+        "ChineseSimp": "连射"
+      },
+      "firemode.ae_stab_1.name": {
+        "EnglishUS": "precise stab",
+        "Russian": "точный колющий",
+        "German": "präziser Schub",
+        "French": "coup précis",
+        "Spanish": "apuñalamiento preciso",
+        "Polish": "precyzyjne dźgnięcie",
+        "Turkish": "kesin bıçak",
+        "BrazilianPortugal": "estocada precisa",
+        "Korean": "정확한 찔림",
+        "Japanese": "精密刺撃",
+        "ChineseSimp": "精准刺击"
+      },
+      "firemode.ae_chop_1.name": {
+        "EnglishUS": "slash",
+        "Russian": "рубящий",
+        "German": "Schrägstrich",
+        "French": "coupe",
+        "Spanish": "tajo",
+        "Polish": "sieka",
+        "Turkish": "kesim",
+        "BrazilianPortugal": "corte",
+        "Korean": "슬래시",
+        "Japanese": "斬撃",
+        "ChineseSimp": "斩击"
+      },
+      "firemode.ae_uhmg_burst_6.name": {
+        "EnglishUS": "burst fire",
+        "Russian": "с отсечкой",
+        "German": "Feuerstoß",
+        "French": "rafale",
+        "Spanish": "explosión",
+        "Polish": "seria",
+        "Turkish": "seri ateş",
+        "BrazilianPortugal": "rajada",
+        "Korean": "점사",
+        "Japanese": "バースト",
+        "ChineseSimp": "连射"
+      },
+      "firemode.ae_uhmg_suppressive_9.name": {
+        "EnglishUS": "suppressive fire",
+        "Russian": "подавляющий огонь",
+        "German": "Unterdrückungsfeuer",
+        "French": "feu de suppression",
+        "Spanish": "fuego de supresión",
+        "Polish": "ogień tłumiący",
+        "Turkish": "baskılayıcı ateş",
+        "BrazilianPortugal": "fogo supressivo",
+        "Korean": "억제사격",
+        "Japanese": "制圧射撃",
+        "ChineseSimp": "压制射击"
+      }
+    }
+  }
+}

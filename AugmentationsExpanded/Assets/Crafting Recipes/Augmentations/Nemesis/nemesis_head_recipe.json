@@ -1,0 +1,34 @@
+{
+  "RecordType": "MGSC.ItemProduceReceipt",
+  "Data": {
+    "Id": "",
+    "OutputItem": "nemesis_head",
+    "RequiredItems": [
+      {
+        "ItemId": "human_skin",
+        "Count": 1
+      },
+      {
+        "ItemId": "human_skull",
+        "Count": 1
+      },
+      {
+        "ItemId": "quasisamples",
+        "Count": 1
+      },
+      {
+        "ItemId": "chemical_analyzer",
+        "Count": 1
+      },
+      {
+        "ItemId": "human_meat",
+        "Count": 1
+      }
+    ],
+    "ProduceTimeInHours": 24.0,
+    "ModifyStartCost": 1,
+    "ModifyStep": 1.05,
+    "ModifyItemsGrades": null,
+    "ModifyLevelLimit": 0
+  }
+}

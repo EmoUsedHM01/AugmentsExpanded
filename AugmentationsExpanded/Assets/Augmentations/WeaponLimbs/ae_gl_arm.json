@@ -1,0 +1,40 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "ae_gl_arm",
+    "Categories": [
+      "PMC",
+      "RealWare"
+    ],
+    "TechLevel": 4,
+    "Price": 1000,
+    "Weight": 1.8,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Ranged",
+    "WoundSlotIds": [
+      "AE_GLArm",
+      "AE_GLShoulder"
+    ],
+    "TooltipIconTag": "aug_type_arm",
+    "Disassembly": [
+      {
+        "ItemId": "weapon_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "metal_tread",
+        "Count": 1
+      },
+      {
+        "ItemId": "spring",
+        "Count": 1
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 1
+      }
+    ]
+  }
+}

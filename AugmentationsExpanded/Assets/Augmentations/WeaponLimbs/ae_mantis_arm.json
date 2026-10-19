@@ -1,0 +1,40 @@
+{
+  "RecordType": "MGSC.AugmentationRecord",
+  "Data": {
+    "Id": "ae_mantis_arm",
+    "Categories": [
+      "PMC",
+      "Tianming"
+    ],
+    "TechLevel": 2,
+    "Price": 850,
+    "Weight": 1.4,
+    "InventoryWidthSize": 2,
+    "ItemClass": "CyberneticAug",
+    "CanPutInVest": false,
+    "AugmentationClass": "Melee",
+    "WoundSlotIds": [
+      "AE_MantisArm",
+      "AE_MantisShoulder"
+    ],
+    "TooltipIconTag": "aug_type_arm",
+    "Disassembly": [
+      {
+        "ItemId": "pierce_parts",
+        "Count": 1
+      },
+      {
+        "ItemId": "hydraulic_pump",
+        "Count": 1
+      },
+      {
+        "ItemId": "armor_plates",
+        "Count": 1
+      },
+      {
+        "ItemId": "circuit_board",
+        "Count": 1
+      }
+    ]
+  }
+}

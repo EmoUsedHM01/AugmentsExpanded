@@ -1,0 +1,69 @@
+{
+  "RecordType": "MGSC.WoundSlotRecord",
+  "Data": {
+    "Id": "Scout22Feet",
+    "SlotType": "Feet",
+    "NatureType": "cyborg",
+    "SlotWeight": 8.0,
+    "CoreEffects": {
+      "dodge_reduce": -0.09
+    },
+    "AmputationCoreEffects": {
+      "run_unavailable": 0,
+      "dodge_reduce": -0.3
+    },
+    "ImplicitBonusEffects": {
+      "throwback_immune": 1,
+      "resist_blunt": 4,
+      "resist_lacer": 4,
+      "resist_shock": 2,
+      "scatter_angle": -0.05
+    },
+    "ImplicitPenaltyEffects": {
+      "max_health": -2,
+      "dodge_reduce": -0.05
+    },
+    "IgnoreEffects": [
+      "run_unavailable",
+      "food_unavailable",
+      "dot_dmg",
+      "apoint_dmg",
+      "move_dmg",
+      "eat_dmg",
+      "vomiting",
+      "los_reduce"
+    ],
+    "IgnoreStatusEffects": [
+      "infectionEffect",
+      "poisonEffect"
+    ],
+    "AmputatedDrop": [
+      {
+        "Item1": 2.0,
+        "Item2": "scout22_feet"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "rod_parts"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "rusty_plates"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "rubber"
+      },
+      {
+        "Item1": 1.0,
+        "Item2": "spring"
+      }
+    ],
+    "AdditionalAmputation": [],
+    "IsGroundAffected": true,
+    "BareHandWeapon": "",
+    "ImplantSocketsDefault": 1,
+    "ImplantSocketsMin": 1,
+    "ImplantSocketsMax": 1
+  }
+}
